@@ -12,34 +12,35 @@ class AppLocalizationsEn extends AppLocalizations {
   String get webinar => 'Rocket LMS';
 
   @override
-  String get splashDesc => 'Сурах хамгийн хялбар арга...';
+  String get splashDesc => 'Сурах хамгийн ухаалаг, хамгийн хялбар арга.';
 
   @override
   String get introTitle1 => 'Одоо суралцаж эхэл!';
 
   @override
-  String get introTitle2 => 'Уулзалт товло...';
+  String get introTitle2 => 'Хувийн уулзалт товлоорой';
 
   @override
-  String get introTitle3 => 'Ур чадвараа заа!';
+  String get introTitle3 => 'Ур чадвараа бусдад заа';
 
   @override
-  String get introTitle4 => 'Одоо суралцаж эхэл';
+  String get introTitle4 => 'Хүссэн зүйлээ одоо суралц';
 
   @override
   String get introDesc1 =>
-      'Дэлхийн шилдэг багш нараас суралцах сонирхолтой байна уу?';
+      'Дэлхийн өнцөг булан бүрийн шилдэг багш нараас онлайн суралцаарай.';
 
   @override
   String get introDesc2 =>
-      'Хувийн багш хайж байна уу? Одоо л хувийн уулзалтаа захиалаарай!';
+      'Чамд өдөр бүр чиглүүлэх хувийн багш хэрэгтэй байна уу? Одоо уулзалтаа захиалаад хичээллэ.';
 
   @override
   String get introDesc3 =>
-      'Өөрийн үнэт мэдлэгээ бусадтай хуваалцаж, яг одоо зааж эхэл.';
+      'Өөрийн мэдлэг, туршлагаа бусадтай хуваалцаж, багш болж орлогоо нэмэгдүүлээрэй.';
 
   @override
-  String get introDesc4 => 'Янз бүрийн сэдвээр шилдэг багш нараас суралцаарай.';
+  String get introDesc4 =>
+      'Янз бүрийн сэдвээр монгол болон гадаад багш нараас системтэйгээр суралц.';
 
   @override
   String get getStart => 'Эхлэх';
@@ -51,39 +52,40 @@ class AppLocalizationsEn extends AppLocalizations {
   String get signup => 'Бүртгүүлэх';
 
   @override
-  String get skipLogin => 'Нэвтрэлгүй алгасах';
+  String get skipLogin => 'Зочны горимоор үргэлжлүүлэх';
 
   @override
-  String get createAccount => 'Бүртгэл үүсгэх';
+  String get createAccount => 'Шинэ бүртгэл үүсгэх';
 
   @override
-  String get createAccountDesc => 'Одоо нэгдээд суралцаж, зааж эхлээрэй';
+  String get createAccountDesc =>
+      'Одоо нэгдээд суралцаж, бусдад зааж эхлээрэй.';
 
   @override
-  String get yourEmail => 'Таны имэйл';
+  String get yourEmail => 'Имэйл хаяг';
 
   @override
   String get password => 'Нууц үг';
 
   @override
-  String get retypePassword => 'Нууц үгээ дахин оруулах';
+  String get retypePassword => 'Нууц үгийг дахин оруулах';
 
   @override
   String get createAnAccount => 'Бүртгэл үүсгэх';
 
   @override
   String get termsPoliciesDesc =>
-      'Манай үйлчилгээг ашигласнаар та\nманай Нөхцөл ба Бодлогыг зөвшөөрч байна.';
+      'Манай үйлчилгээг ашигласнаар та\nНөхцөл, Бодлогыг зөвшөөрч байна.';
 
   @override
-  String get haveAnAccount => 'Бүртгэлтэй юу?';
+  String get haveAnAccount => 'Өмнө нь бүртгүүлсэн үү?';
 
   @override
   String get welcomeBack => 'Дахин тавтай морил!';
 
   @override
   String get welcomeBackDesc =>
-      'Бүртгэлдээ нэвтэрч суралцах аяллаа үргэлжлүүлээрэй...';
+      'Бүртгэлдээ нэвтэрч, суралцах аяллаа үргэлжлүүлээрэй.';
 
   @override
   String get emailOrPhone => 'Имэйл эсвэл утасны дугаар';
@@ -92,39 +94,39 @@ class AppLocalizationsEn extends AppLocalizations {
   String get dontHaveAnAccount => 'Бүртгэлгүй байна уу?';
 
   @override
-  String get forgetPassword => 'Нууц үгээ мартсан';
+  String get forgetPassword => 'Нууц үгээ мартсан?';
 
   @override
   String get forgetPasswordDesc =>
-      'Санаа зоволтгүй, таны нууц үгийг дахин тохируулна.';
+      'Санаа зоволтгүй, таны нууц үгийг шинэчлэхэд тусалъя.';
 
   @override
-  String get haventReceiveTheCode => 'Код ирээгүй байна уу?';
+  String get haventReceiveTheCode => 'Код ирээгүй юу?';
 
   @override
   String get resendCode => 'Кодыг дахин илгээх';
 
   @override
-  String get verifyMyAccount => 'Бүртгэлээ баталгаажуулах';
+  String get verifyMyAccount => 'Бүртгэл баталгаажуулах';
 
   @override
   String get accountVerification => 'Бүртгэл баталгаажуулалт';
 
   @override
   String get accountVerificationDesc =>
-      'Танд ирсэн баталгаажуулах кодыг оруулна уу...';
+      'Танд ирсэн баталгаажуулах кодыг оруулна уу.';
 
   @override
   String get selectlanguage => 'Хэл сонгох';
 
   @override
-  String get searchCountry => 'Улс эсвэл хэл хайх';
+  String get searchCountry => 'Улс эсвэл хэлээр хайх';
 
   @override
   String get cancel => 'Болих';
 
   @override
-  String get alreadyHaveAnAccount => 'Бүртгэлтэй байна уу?';
+  String get alreadyHaveAnAccount => 'Бүртгэлтэй юу?';
 
   @override
   String get phoneNumber => 'Утасны дугаар';
@@ -133,28 +135,28 @@ class AppLocalizationsEn extends AppLocalizations {
   String get home => 'Нүүр';
 
   @override
-  String get dashboard => 'Хянах самбар';
+  String get dashboard => 'Хяналтын самбар';
 
   @override
-  String get classes => 'Хичээлүүд';
+  String get classes => 'Хичээл';
 
   @override
-  String get meetings => 'Уулзалтууд';
+  String get meetings => 'Уулзалт';
 
   @override
-  String get assignments => 'Даалгаврууд';
+  String get assignments => 'Даалгавар';
 
   @override
-  String get quizzes => 'Шалгалтууд';
+  String get quizzes => 'Шалгалт';
 
   @override
-  String get certificates => 'Сертификатууд';
+  String get certificates => 'Сертификат';
 
   @override
   String get favorites => 'Таалагдсан';
 
   @override
-  String get comments => 'Сэтгэгдлүүд';
+  String get comments => 'Сэтгэгдэл';
 
   @override
   String get financial => 'Санхүү';
@@ -172,10 +174,10 @@ class AppLocalizationsEn extends AppLocalizations {
   String get hi => 'Сайн уу, ';
 
   @override
-  String get letsStartLearning => 'Суралцалтаа эхэлье!';
+  String get letsStartLearning => 'өнөөдөр юу сурмаар байна?';
 
   @override
-  String get searchInputDesc => 'Юуг хайх гэж байна вэ?';
+  String get searchInputDesc => 'Юуг хайж байна вэ?';
 
   @override
   String get viewAll => 'Бүгдийг харах';
@@ -190,7 +192,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get bestRated => 'Өндөр үнэлгээтэй';
 
   @override
-  String get bestSelling => 'Хамгийн их борлуулалттай';
+  String get bestSelling => 'Хамгийн их зарагдсан';
 
   @override
   String get discountedClasses => 'Хямдралтай хичээлүүд';
@@ -202,7 +204,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get finished => 'Дууссан';
 
   @override
-  String get notConducted => 'Хийгдээгүй';
+  String get notConducted => 'Явагдаагүй';
 
   @override
   String get inProgress => 'Явагдаж байна';
@@ -220,13 +222,13 @@ class AppLocalizationsEn extends AppLocalizations {
   String get textClass => 'Текст хичээл';
 
   @override
-  String get featured => 'Онцлох';
+  String get featured => 'Онцгой';
 
   @override
-  String get hours => 'Цаг';
+  String get hours => 'цаг';
 
   @override
-  String get categories => 'Ангиллууд';
+  String get categories => 'Ангилал';
 
   @override
   String get providers => 'Үйлчилгээ үзүүлэгчид';
@@ -241,7 +243,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get yourName => 'Таны нэр';
 
   @override
-  String get refCode => 'Реферал код';
+  String get refCode => 'Урилгын код';
 
   @override
   String get continue_ => 'Үргэлжлүүлэх';
@@ -256,25 +258,25 @@ class AppLocalizationsEn extends AppLocalizations {
   String get trending => 'Трэнд';
 
   @override
-  String get browseCategories => 'Ангиллуудыг үзэх';
+  String get browseCategories => 'Ангиллуудыг харах';
 
   @override
   String get courses => 'Курсууд';
 
   @override
-  String get options => 'Сонголтууд';
+  String get options => 'Сонголт';
 
   @override
-  String get filters => 'Шүүлтүүрүүд';
+  String get filters => 'Шүүлтүүр';
 
   @override
-  String get dataNotFound => 'Өгөгдөл олдсонгүй...';
+  String get dataNotFound => 'Өгөгдөл алга';
 
   @override
-  String get dataNotFoundDesc => 'Энэ хуудсанд үзүүлэх мэдээлэл алга байна.';
+  String get dataNotFoundDesc => 'Энд харагдуулах зүйл одоогоор алга байна.';
 
   @override
-  String get upcomingClasses => 'Тун удахгүй болох хичээлүүд';
+  String get upcomingClasses => 'Удахгүй эхлэх хичээлүүд';
 
   @override
   String get downloadableContent => 'Татаж авах контент';
@@ -286,19 +288,19 @@ class AppLocalizationsEn extends AppLocalizations {
   String get all => 'Бүгд';
 
   @override
-  String get newest => 'Хамгийн шинэ';
+  String get newest => 'Шинэ эхэлсэн';
 
   @override
-  String get highestPrice => 'Хамгийн өндөр үнэ';
+  String get highestPrice => 'Өндөр үнэтэй';
 
   @override
-  String get lowestPrice => 'Хамгийн бага үнэ';
+  String get lowestPrice => 'Бага үнэтэй';
 
   @override
-  String get bestSellers => 'Хамгийн борлуулалттай';
+  String get bestSellers => 'Их зарагдсан';
 
   @override
-  String get applyOptions => 'Сонголтыг хэрэглэх';
+  String get applyOptions => 'Сонголтыг хэрэгжүүлэх';
 
   @override
   String get filterItems => 'Шүүлтүүр сонгох';
@@ -316,7 +318,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get search => 'Хайх';
 
   @override
-  String get searchResultDesc => ' Үр дүн олдлоо: ';
+  String get searchResultDesc => 'Үр дүн олдлоо: ';
 
   @override
   String get suggestedRandom => 'Санамсаргүй санал';
@@ -328,11 +330,11 @@ class AppLocalizationsEn extends AppLocalizations {
   String get organizations => 'Байгууллагууд';
 
   @override
-  String get resultNotFound => 'Үр дүн олдсонгүй...';
+  String get resultNotFound => 'Үр дүн алга';
 
   @override
   String get tryMoreAccurateWordsToReachResults =>
-      'Илүү тодорхой үг хэрэглэхийг зөвлөе';
+      'Илүү тодорхой түлхүүр үг ашиглаарай.';
 
   @override
   String get instrcutors => 'Багш нар';
@@ -341,25 +343,25 @@ class AppLocalizationsEn extends AppLocalizations {
   String get consultants => 'Зөвлөхүүд';
 
   @override
-  String get noInstructor => 'Багш алга';
+  String get noInstructor => 'Багш байхгүй байна';
 
   @override
-  String get noInstructorDesc => 'Энэ апп-д багш хараахан байхгүй байна.';
+  String get noInstructorDesc => 'Энэ хэсэгт багш бүртгэгдээгүй байна.';
 
   @override
-  String get noOrganization => 'Байгууллага алга';
+  String get noOrganization => 'Байгууллага байхгүй байна';
 
   @override
-  String get noOrganizationDesc => 'Байгууллага байхгүй байна.';
+  String get noOrganizationDesc => 'Одоогоор байгууллага бүртгэгдээгүй байна.';
 
   @override
   String get noConsultants => 'Зөвлөх алга';
 
   @override
-  String get noConsultantsDesc => 'Зөвлөх бүртгэгдээгүй байна.';
+  String get noConsultantsDesc => 'Одоогоор зөвлөх бүртгэлгүй байна.';
 
   @override
-  String get availableForMeetings => 'Уулзалт боломжтой';
+  String get availableForMeetings => 'Уулзалт авах боломжтой';
 
   @override
   String get blogPost => 'Блог нийтлэл';
@@ -372,10 +374,10 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get submitCommentDesc =>
-      'Миний туршлагаар энэ багш үнэхээр шилдэг багшдын нэг.';
+      'Энэ багштай хичээллэх туршлагаа хуваалцаарай.';
 
   @override
-  String get commentOptions => 'Сэтгэгдлийн сонголтууд';
+  String get commentOptions => 'Сэтгэгдлийн сонголт';
 
   @override
   String get reply => 'Хариулах';
@@ -390,22 +392,22 @@ class AppLocalizationsEn extends AppLocalizations {
   String get selectReportReason => 'Шалтгаан сонгох';
 
   @override
-  String get messageToReviewer => 'Хянагчид мессеж';
+  String get messageToReviewer => 'Хянагчид явуулах мессеж';
 
   @override
   String get in_ => ' -д';
 
   @override
-  String get blogCategories => 'Блогийн ангиллууд';
+  String get blogCategories => 'Блогийн ангилал';
 
   @override
-  String get noComments => 'Сэтгэгдэл алга!';
+  String get noComments => 'Сэтгэгдэл алга';
 
   @override
-  String get noCommentsDesc => 'Энэхүү нийтлэлд анхны сэтгэгдлээ үлдээгээрэй.';
+  String get noCommentsDesc => 'Анхны сэтгэгдлээ үлдээгээрэй.';
 
   @override
-  String get noBlogPosts => 'Нийтлэл алга!';
+  String get noBlogPosts => 'Нийтлэл алга';
 
   @override
   String get noBlogPostsDesc => 'Одоогоор блог нийтлэл байхгүй байна.';
@@ -414,7 +416,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get selectACurrency => 'Валют сонгох';
 
   @override
-  String get courseDetails => 'Курсын дэлгэрэнгүй';
+  String get courseDetails => 'Курсын мэдээлэл';
 
   @override
   String get information => 'Мэдээлэл';
@@ -423,7 +425,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get content => 'Агуулга';
 
   @override
-  String get reviews => 'Сэтгэгдлүүд';
+  String get reviews => 'Сэтгэгдэл';
 
   @override
   String get subscribe => 'Гишүүн болох';
@@ -462,7 +464,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get sec => 'Секунд';
 
   @override
-  String get students => 'Суралцагчид';
+  String get students => 'Суралцагч';
 
   @override
   String get capacity => 'Багтаамж';
@@ -474,7 +476,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get duration => 'Үргэлжлэх хугацаа';
 
   @override
-  String get prerequisties => 'Урьдчилсан шаардлага';
+  String get prerequisties => 'Урьдчилсан нөхцөл';
 
   @override
   String get addToCart => 'Сагсанд нэмэх';
@@ -489,22 +491,22 @@ class AppLocalizationsEn extends AppLocalizations {
   String get addToCalendar => 'Календарт нэмэх';
 
   @override
-  String get addToFavorites => 'Таалагдсанд нэмэх';
+  String get addToFavorites => 'Таалагдсан руу нэмэх';
 
   @override
   String get share => 'Хуваалцах';
 
   @override
-  String get viewMore => 'Дэлгэрэнгүй үзэх';
+  String get viewMore => 'Дэлгэрэнгүй харах';
 
   @override
   String get status => 'Төлөв';
 
   @override
-  String get downloadable => 'Татаж авах боломжтой';
+  String get downloadable => 'Татаж авч болдог';
 
   @override
-  String get questions => 'Асуултууд';
+  String get questions => 'Асуулт';
 
   @override
   String get contentQuality => 'Агуулгын чанар';
@@ -513,35 +515,35 @@ class AppLocalizationsEn extends AppLocalizations {
   String get instructorSkills => 'Багшийн ур чадвар';
 
   @override
-  String get purchaseWorth => 'Худалдан авалт үнэ цэнтэй эсэх';
+  String get purchaseWorth => 'Худалдан авалт үнэ цэнтэй байсан эсэх';
 
   @override
   String get supportQuality => 'Дэмжлэгийн чанар';
 
   @override
-  String get noReviews => 'Сэтгэгдэл алга!';
+  String get noReviews => 'Сэтгэгдэл алга';
 
   @override
-  String get noReviewsDesc => 'Энэ курсэд одоогоор сэтгэгдэл байхгүй.';
+  String get noReviewsDesc => 'Энэ курсд одоогоор сэтгэгдэл байхгүй байна.';
 
   @override
-  String get noCommentsCourseDesc => 'Энэ курсэд сэтгэгдэл байхгүй.';
+  String get noCommentsCourseDesc => 'Курс дээр сэтгэгдэл үлдээгээгүй байна.';
 
   @override
   String get price => 'Үнэ';
 
   @override
-  String get reviewTheCourse => 'Курсийн үнэлгээ өгөх';
+  String get reviewTheCourse => 'Курсэд үнэлгээ өгөх';
 
   @override
   String get reviewTheCourseDesc =>
-      'Одоогоор одоор үнэлж, дараа нь сэтгэгдлээ бичээрэй';
+      'Эхлээд одоор үнэлж, дараа нь сэтгэгдлээ бичээрэй.';
 
   @override
   String get writeReview => 'Сэтгэгдэл бичих';
 
   @override
-  String get writeReviewDesc => 'Миний бодлоор энэ багш үнэхээр шилдэг.';
+  String get writeReviewDesc => 'Энэ курсийн талаар өөрийн бодлоо бичээрэй.';
 
   @override
   String get submit => 'Илгээх';
@@ -550,13 +552,13 @@ class AppLocalizationsEn extends AppLocalizations {
   String get completed => 'Дууссан';
 
   @override
-  String get goToLearningPage => 'Суралцах хуудсанд очих';
+  String get goToLearningPage => 'Хичээлийн хуудсанд очих';
 
   @override
   String get lessons => 'Хичээлүүд';
 
   @override
-  String get buyWithPoints => 'Оноогоор худалдаж авах';
+  String get buyWithPoints => 'Оноогоор авах';
 
   @override
   String get youHave => 'Танд';
@@ -571,7 +573,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get bundleCourse => 'Курсийн багц';
 
   @override
-  String get notices => 'Мэдэгдлүүд';
+  String get notices => 'Мэдэгдэл';
 
   @override
   String get postedBy => 'Нийтэлсэн:';
@@ -589,13 +591,13 @@ class AppLocalizationsEn extends AppLocalizations {
   String get openQuestions => 'Нээлттэй асуултууд';
 
   @override
-  String get answers => 'Хариултууд';
+  String get answers => 'Хариулт';
 
   @override
   String get activeUsers => 'Идэвхтэй хэрэглэгчид';
 
   @override
-  String get lastActivity => 'Сүүлчийн үйлдэл';
+  String get lastActivity => 'Сүүлийн үйлдэл';
 
   @override
   String get searchInCourseForum => 'Курсийн форумд хайх';
@@ -607,7 +609,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get unpin => 'Түгжээг гаргах';
 
   @override
-  String get resultsFoundFor => 'Үр дүн:';
+  String get resultsFoundFor => 'Дараах хайлтын үр дүн:';
 
   @override
   String get newQuestion => 'Шинэ асуулт';
@@ -631,13 +633,13 @@ class AppLocalizationsEn extends AppLocalizations {
   String get edit => 'Засах';
 
   @override
-  String get replyToCourseForum => 'Форумд хариулах';
+  String get replyToCourseForum => 'Форумд хариу бичих';
 
   @override
-  String get noQuestion => 'Асуулт алга!';
+  String get noQuestion => 'Асуулт алга';
 
   @override
-  String get noQuestionDesc => 'Шинэ асуулт асууж, бусадтай харилцаарай...';
+  String get noQuestionDesc => 'Эхний асуултаа асууж, бусадтай харилцаарай.';
 
   @override
   String get notification => 'Мэдэгдэл';
@@ -658,7 +660,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get total => 'Нийт';
 
   @override
-  String get checkout => 'Төлбөр хийх';
+  String get checkout => 'Төлбөр төлөх';
 
   @override
   String get addCoupon => 'Купон нэмэх';
@@ -676,13 +678,13 @@ class AppLocalizationsEn extends AppLocalizations {
   String get successfulPayment => 'Төлбөр амжилттай';
 
   @override
-  String get successfulPaymentDesc => 'Төлбөр амжилттай хийгдлээ';
+  String get successfulPaymentDesc => 'Төлбөр амжилттай хийгдлээ.';
 
   @override
   String get paymentFailed => 'Төлбөр амжилтгүй';
 
   @override
-  String get paymentFailedDesc => 'Төлбөр амжилтгүй боллоо';
+  String get paymentFailedDesc => 'Төлбөр амжилтгүй боллоо. Дахин оролдоно уу.';
 
   @override
   String get remove => 'Устгах';
@@ -697,7 +699,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get userGroupDiscount => 'Хэрэглэгчийн бүлгийн хөнгөлөлт';
 
   @override
-  String get courseMaterialDetails => 'Курсийн дэлгэрэнгүй';
+  String get courseMaterialDetails => 'Курсийн материалын дэлгэрэнгүй';
 
   @override
   String get volume => 'Хэмжээ';
@@ -721,14 +723,14 @@ class AppLocalizationsEn extends AppLocalizations {
   String get view => 'Харах';
 
   @override
-  String get thisSessionConductedOn => 'Энэ сесс явагдсан огноо';
+  String get thisSessionConductedOn => 'Энэ сесс дараах өдөр явагдсан:';
 
   @override
-  String get accessDenied => 'Хандалт хориглогдсон!';
+  String get accessDenied => 'Хандалт байхгүй';
 
   @override
   String get accessDeniedDesc =>
-      'Энэ хэсэгт хандахын тулд өмнөх хэсгийг давна уу.';
+      'Энэ хэсэгт хандахын тулд өмнөх хэсгийг эхлээд дуусгана уу.';
 
   @override
   String get no => 'Үгүй';
@@ -737,35 +739,36 @@ class AppLocalizationsEn extends AppLocalizations {
   String get yes => 'Тийм';
 
   @override
-  String get noContentForShow => 'Үзүүлэх контент алга';
+  String get noContentForShow => 'Үзүүлэх зүйл алга';
 
   @override
-  String get attachments => 'Хавсралтууд';
+  String get attachments => 'Хавсралт';
 
   @override
-  String get noNotifications => 'Мэдэгдэл алга!';
+  String get noNotifications => 'Мэдэгдэл алга';
 
   @override
-  String get noNotificationsDesc => 'Одоогоор мэдэгдэл байхгүй.';
+  String get noNotificationsDesc => 'Одоогоор шинэ мэдэгдэл алга байна.';
 
   @override
-  String get cartIsEmpty => 'Сагс хоосон!';
+  String get cartIsEmpty => 'Сагс хоосон';
 
   @override
-  String get cartIsEmptyDesc => 'Таалагдсан курсуудаа сагсанд нэмээрэй.';
+  String get cartIsEmptyDesc =>
+      'Таалагдсан курсуудаа сагсанд нэмээд, захиалга үүсгээрэй.';
 
   @override
   String get back => 'Буцах';
 
   @override
   String get successAddToCartDesc =>
-      'Захиалгаа гүйцээхийн тулд сагс руу орно уу';
+      'Захиалгаа гүйцээхийн тулд сагс руугаа орно уу.';
 
   @override
-  String get notAccessContent => 'Энэ контентод хандах эрхгүй';
+  String get notAccessContent => 'Энэ контентод хандах эрхгүй.';
 
   @override
-  String get offlinePaymentDetails => 'Офлайн төлбөрийн дэлгэрэнгүй';
+  String get offlinePaymentDetails => 'Офлайн төлбөрийн мэдээлэл';
 
   @override
   String get selectBank => 'Банк сонгох';
@@ -786,25 +789,25 @@ class AppLocalizationsEn extends AppLocalizations {
   String get bankAccount => 'Банкны данс';
 
   @override
-  String get successfulyRequest => 'Таны хүсэлт амжилттай бүртгэгдлээ.';
+  String get successfulyRequest => 'Таны хүсэлт амжилттай илгээгдлээ.';
 
   @override
-  String get followers => 'Дагагчид';
+  String get followers => 'Дагагч';
 
   @override
-  String get about => 'Тухай';
+  String get about => 'Танилцуулга';
 
   @override
-  String get badges => 'Медалиуд';
+  String get badges => 'Медаль';
 
   @override
   String get meeting => 'Уулзалт';
 
   @override
-  String get instructorIsUnavailable => 'Багш одоогоор боломжгүй';
+  String get instructorIsUnavailable => 'Багш одоогоор завгүй байна';
 
   @override
-  String get experiences => 'Туршлага';
+  String get experiences => 'Ажлын туршлага';
 
   @override
   String get education => 'Боловсрол';
@@ -813,7 +816,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get follow => 'Дагах';
 
   @override
-  String get license => 'Лицензээ идэвхжүүлнэ үү!';
+  String get license => 'Лицензээ идэвхжүүлнэ үү';
 
   @override
   String get unFollow => 'Дагахаа болих';
@@ -823,31 +826,32 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get reserveMeetingDesc =>
-      'Энэхүү хэрэглэгчтэй шууд уулзалт товлоорой\nЦагийн төлбөр:';
+      'Энэхүү зөвлөхтэй шууд уулзалт товлож, дараах цагийн үнээр хичээллэнэ:';
 
   @override
-  String get reserveMeeting => 'Уулзалт товлох';
+  String get reserveMeeting => 'Уулзалт захиалах';
 
   @override
   String get hourlyCharge => 'Цагийн төлбөр';
 
   @override
-  String get noBiography => 'Танилцуулга алга!';
+  String get noBiography => 'Танилцуулга алга';
 
   @override
-  String get noBiographyDesc => 'Багш өөрийн танилцуулгыг оруулаагүй байна.';
+  String get noBiographyDesc =>
+      'Энэ багш өөрийн танилцуулгыг хараахан нэмээгүй байна.';
 
   @override
-  String get noCourses => 'Курс алга!';
+  String get noCourses => 'Курс алга';
 
   @override
-  String get noCoursesDesc => 'Энэ багш курс нэмээгүй байна.';
+  String get noCoursesDesc => 'Энэ багш одоогоор курс нэмээгүй байна.';
 
   @override
-  String get noBadges => 'Медаль алга!';
+  String get noBadges => 'Медаль алга';
 
   @override
-  String get noBadgesDesc => 'Энэ багшид медаль байхгүй.';
+  String get noBadgesDesc => 'Энэ багшид одоогоор медаль байхгүй байна.';
 
   @override
   String get noInstructorProfileDesc =>
@@ -857,13 +861,13 @@ class AppLocalizationsEn extends AppLocalizations {
   String get pickaDate => 'Огноо сонгох';
 
   @override
-  String get meetingTimesAreAvailable => 'Уулзалтын цагууд боломжтой.';
+  String get meetingTimesAreAvailable => 'Дараах өдрүүдэд уулзалтын цаг байна.';
 
   @override
   String get important => 'Чухал';
 
   @override
-  String get timeSlotsDisplayedIn => 'Цагийн хэсгүүд дараах бүсээр:';
+  String get timeSlotsDisplayedIn => 'Цагийн сонголт дараах бүсээр харагдана:';
 
   @override
   String get timeZone => 'Цагийн бүс';
@@ -872,10 +876,10 @@ class AppLocalizationsEn extends AppLocalizations {
   String get pickaTime => 'Цаг сонгох';
 
   @override
-  String get finalizeReservation => 'Захиалга баталгаажуулах';
+  String get finalizeReservation => 'Захиалгаа баталгаажуулах';
 
   @override
-  String get reserved => 'Захиалагдсан';
+  String get reserved => 'Захиалсан';
 
   @override
   String get selectedTime => 'Сонгосон цаг:';
@@ -890,7 +894,8 @@ class AppLocalizationsEn extends AppLocalizations {
   String get inPersonMeetingHourlyRate => 'Биеэр уулзалтын цагийн үнэ: ';
 
   @override
-  String get instructorConductsGroupMeetings => 'Багш бүлгийн уулзалт хийдэг.';
+  String get instructorConductsGroupMeetings =>
+      'Энэ багш бүлгийн уулзалт явуулдаг.';
 
   @override
   String get conductionType => 'Явуулах хэлбэр';
@@ -908,37 +913,37 @@ class AppLocalizationsEn extends AppLocalizations {
   String get individual => 'Ганцаарчилсан';
 
   @override
-  String get group => 'Бүлэг';
+  String get group => 'Бүлгийн';
 
   @override
   String get participates => 'Оролцогчид';
 
   @override
-  String get groupMeetingDetails => 'Бүлгийн уулзалтын дэлгэрэнгүй';
+  String get groupMeetingDetails => 'Бүлгийн уулзалтын мэдээлэл';
 
   @override
   String get meetingHourlyRate => 'Уулзалтын цагийн төлбөр: ';
 
   @override
-  String get groupLiveCapacity => 'Бүлгийн шууд багтаамж:';
+  String get groupLiveCapacity => 'Бүлгийн шууд хичээлийн багтаамж:';
 
   @override
-  String get successfullyRegisteredMeeting => 'Уулзалт амжилттай бүртгэгдлээ';
+  String get successfullyRegisteredMeeting => 'Уулзалт амжилттай захиалагдлаа.';
 
   @override
-  String get myAssignments => 'Миний даалгаврууд';
+  String get myAssignments => 'Миний даалгавар';
 
   @override
-  String get studentAssignmetns => 'Оюутны даалгаварууд';
+  String get studentAssignmetns => 'Оюутны даалгавар';
 
   @override
-  String get lastSubmission => 'Сүүлчийн илгээлт';
+  String get lastSubmission => 'Сүүлчийн илгээх хугацаа';
 
   @override
   String get firstSubmission => 'Эхний илгээлт';
 
   @override
-  String get deadline => 'Хугацаа';
+  String get deadline => 'Хугацаа дуусах өдөр';
 
   @override
   String get grade => 'Дүн';
@@ -947,13 +952,13 @@ class AppLocalizationsEn extends AppLocalizations {
   String get attempts => 'Оролдлого';
 
   @override
-  String get pending => 'Хүлээгдэж буй';
+  String get pending => 'Хянагдаж байна';
 
   @override
   String get passed => 'Тэнцсэн';
 
   @override
-  String get notSubmitted => 'Илгээгдээгүй';
+  String get notSubmitted => 'Илгээхгүй үлдсэн';
 
   @override
   String get assignmentOverview => 'Даалгаврын тойм';
@@ -986,16 +991,16 @@ class AppLocalizationsEn extends AppLocalizations {
   String get assignmentClosed => 'Даалгавар хаагдсан';
 
   @override
-  String get youCanNotSendFilesAnymMore => 'Та одоо файл илгээх боломжгүй';
+  String get youCanNotSendFilesAnymMore => 'Дахин файл илгээх боломжгүй.';
 
   @override
-  String get assignmentPassed => 'Даалгаврыг давсан';
+  String get assignmentPassed => 'Даалгаврыг амжилттай давсан';
 
   @override
   String get active => 'Идэвхтэй';
 
   @override
-  String get totalSubmissions => 'Нийт илгээлт';
+  String get totalSubmissions => 'Нийт илгээсэн';
 
   @override
   String get averageGrade => 'Дундаж дүн';
@@ -1007,10 +1012,10 @@ class AppLocalizationsEn extends AppLocalizations {
   String get submissions => 'Илгээлтүүд';
 
   @override
-  String get latestSubmissions => 'Сүүлийн илгээлтүүд';
+  String get latestSubmissions => 'Сүүлийн илгээсэн';
 
   @override
-  String get reviewSubmissions => 'Илгээлт шалгах';
+  String get reviewSubmissions => 'Илгээлтийг шалгах';
 
   @override
   String get viewAssignment => 'Даалгавар харах';
@@ -1019,10 +1024,10 @@ class AppLocalizationsEn extends AppLocalizations {
   String get allSubmissions => 'Бүх илгээлт';
 
   @override
-  String get noSubmissions => 'Илгээлт алга!';
+  String get noSubmissions => 'Илгээлт алга';
 
   @override
-  String get noSubmissionsDesc => 'Шалгах оюутны даалгавар алга.';
+  String get noSubmissionsDesc => 'Шалгах даалгавар оюутнаас ирээгүй байна.';
 
   @override
   String get rateAssignment => 'Даалгаварт үнэлгээ өгөх';
@@ -1031,10 +1036,11 @@ class AppLocalizationsEn extends AppLocalizations {
   String get passGradeIis => 'Тэнцэх оноо: ';
 
   @override
-  String get assignmentPassedDesc => 'Та цаашид файл илгээх боломжгүй';
+  String get assignmentPassedDesc =>
+      'Та даалгаврыг давсан тул цаашид файл илгээх шаардлагагүй.';
 
   @override
-  String get summary => 'Тойм';
+  String get summary => 'Товч тойм';
 
   @override
   String get offlinePayments => 'Офлайн төлбөрүүд';
@@ -1043,7 +1049,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get sales => 'Борлуулалт';
 
   @override
-  String get payout => 'Төлбөр шилжүүлэлт';
+  String get payout => 'Шилжүүлэлт';
 
   @override
   String get accountBalance => 'Дансны үлдэгдэл';
@@ -1061,13 +1067,13 @@ class AppLocalizationsEn extends AppLocalizations {
   String get salesHistory => 'Борлуулалтын түүх';
 
   @override
-  String get payoutRequest => 'Шилжүүлэлт хүсэх';
+  String get payoutRequest => 'Гүйлгээ шилжүүлэх хүсэлт';
 
   @override
   String get financialSettings => 'Санхүүгийн тохиргоо';
 
   @override
-  String get classSales => 'Курсын борлуулалт';
+  String get classSales => 'Курсийн борлуулалт';
 
   @override
   String get meetingSales => 'Уулзалтын борлуулалт';
@@ -1079,50 +1085,53 @@ class AppLocalizationsEn extends AppLocalizations {
   String get ref => 'Лавлах';
 
   @override
-  String get waiting => 'Хүлээгдэж буй';
+  String get waiting => 'Хүлээгдэж байна';
 
   @override
   String get rejected => 'Татгалзсан';
 
   @override
-  String get noBalance => 'Үлдэгдэл алга!';
+  String get noBalance => 'Үлдэгдэл алга';
 
   @override
-  String get noBalanceDesc => 'Таны дансанд үлдэгдэл байхгүй.';
+  String get noBalanceDesc => 'Таны дансанд одоогоор үлдэгдэл алга.';
 
   @override
-  String get noBankAccounts => 'Банкны данс алга!';
+  String get noBankAccounts => 'Банкны данс алга';
 
   @override
-  String get noBankAccountsDesc => 'Офлайн төлбөрт банкны данс бүртгэгдээгүй.';
+  String get noBankAccountsDesc =>
+      'Офлайн төлбөрт зориулсан банкны данс бүртгэгдээгүй байна.';
 
   @override
-  String get noOfflinePayments => 'Офлайн төлбөр алга!';
+  String get noOfflinePayments => 'Офлайн төлбөр алга';
 
   @override
-  String get noOfflinePaymentsDesc => 'Танд офлайн төлбөрийн хүсэлт алга.';
+  String get noOfflinePaymentsDesc =>
+      'Танд офлайн төлбөрийн хүсэлт ирээгүй байна.';
 
   @override
-  String get noPayout => 'Шилжүүлэлт алга!';
+  String get noPayout => 'Шилжүүлэлт алга';
 
   @override
-  String get noPayoutDesc => 'Төлбөр шилжүүлсэн түүх байхгүй.';
+  String get noPayoutDesc => 'Одоогоор гүйлгээ шилжүүлсэн түүх алга.';
 
   @override
-  String get noSales => 'Борлуулалт алга!';
+  String get noSales => 'Борлуулалт алга';
 
   @override
-  String get noSalesDesc => 'Та одоогоор юу ч зараагүй байна.';
+  String get noSalesDesc =>
+      'Та одоогоор ямар нэг хичээл эсвэл уулзалт зараагүй байна.';
 
   @override
-  String get readyToPayout => 'Шилжүүлэхэд бэлэн';
+  String get readyToPayout => 'Шилжүүлэх боломжтой';
 
   @override
   String get requestPayout => 'Шилжүүлэлт хүсэх';
 
   @override
   String get requestPayoutDesc =>
-      'Мөнгийг шилжүүлэхийн тулд дансны мэдээллээ баталгаажуулна уу';
+      'Мөнгийг шилжүүлэхийн тулд банкны дансны мэдээллээ баталгаажуулна уу.';
 
   @override
   String get cardID => 'Картын ID';
@@ -1155,7 +1164,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get classID => 'Курсийн ID';
 
   @override
-  String get sessions => 'Сессүүд';
+  String get sessions => 'Сесс';
 
   @override
   String get dateCreated => 'Үүсгэсэн огноо';
@@ -1167,13 +1176,13 @@ class AppLocalizationsEn extends AppLocalizations {
   String get startMeeting => 'Уулзалт эхлүүлэх';
 
   @override
-  String get joinMeeting => 'Уулзалтанд нэгдэх';
+  String get joinMeeting => 'Уулзалтад нэгдэх';
 
   @override
   String get finishmeeting => 'Уулзалтыг дуусгах';
 
   @override
-  String get meetingOptions => 'Уулзалтын сонголтууд';
+  String get meetingOptions => 'Уулзалтын сонголт';
 
   @override
   String get canceled => 'Цуцлагдсан';
@@ -1194,13 +1203,14 @@ class AppLocalizationsEn extends AppLocalizations {
   String get save => 'Хадгалах';
 
   @override
-  String get noMeetings => 'Уулзалт алга!';
+  String get noMeetings => 'Уулзалт алга';
 
   @override
-  String get noMeetingsDesc => 'Дуртай зөвлөхтэйгөө уулзалт захиалаарай.';
+  String get noMeetingsDesc =>
+      'Таалагдсан багштайгаа уулзалт захиалаад хичээллэж эхлээрэй.';
 
   @override
-  String get noCourseClassesDesc => 'Курсэд бүртгүүлээд суралцаж эхлээрэй.';
+  String get noCourseClassesDesc => 'Курсэд бүртгүүлээд хичээлээ эхлээрэй.';
 
   @override
   String get consultant => 'Зөвлөх';
@@ -1215,19 +1225,19 @@ class AppLocalizationsEn extends AppLocalizations {
   String get endTime => 'Дуусах цаг';
 
   @override
-  String get meetingJoinDetails => 'Нэгдэх дэлгэрэнгүй';
+  String get meetingJoinDetails => 'Нэгдэх мэдээлэл';
 
   @override
   String get myComments => 'Миний сэтгэгдлүүд';
 
   @override
-  String get myClassComments => 'Миний курсийн сэтгэгдлүүд';
+  String get myClassComments => 'Курсийн сэтгэгдлүүд';
 
   @override
   String get commentDetails => 'Сэтгэгдлийн дэлгэрэнгүй';
 
   @override
-  String get thisCommentIsFor => 'Энэ сэтгэгдэл дараах зүйлд хамаатай';
+  String get thisCommentIsFor => 'Энэ сэтгэгдэл дараах зүйлд хамаарна:';
 
   @override
   String get delete => 'Устгах';
@@ -1236,14 +1246,13 @@ class AppLocalizationsEn extends AppLocalizations {
   String get editComment => 'Сэтгэгдэл засах';
 
   @override
-  String get reportComment => 'Сэтгэгдэл мэдэгдэх';
+  String get reportComment => 'Сэтгэгдэл мэдээлэх';
 
   @override
   String get open => 'Нээлттэй';
 
   @override
-  String get thereIsNoInformationToDisplay =>
-      'Уучлаарай, үзүүлэх мэдээлэл алга.';
+  String get thereIsNoInformationToDisplay => 'Одоогоор үзүүлэх мэдээлэл алга.';
 
   @override
   String get settings => 'Тохиргоо';
@@ -1267,7 +1276,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get referralURL => 'Урилгын холбоос';
 
   @override
-  String get joinNewsletter => 'Мэдээллийн товхимолд нэгдэх';
+  String get joinNewsletter => 'Мэдээллийн товхимолд бүртгүүлэх';
 
   @override
   String get accountType => 'Бүртгэлийн төрөл';
@@ -1279,7 +1288,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get identityScan => 'Иргэний үнэмлэхийн зураг';
 
   @override
-  String get certificatesDocuments => 'Сертификат ба баримтууд';
+  String get certificatesDocuments => 'Сертификат, баримтууд';
 
   @override
   String get approved => 'Зөвшөөрөгдсөн';
@@ -1291,11 +1300,11 @@ class AppLocalizationsEn extends AppLocalizations {
   String get upload => 'Оруулах';
 
   @override
-  String get financialApproval => 'Санхүү баталгаажсан';
+  String get financialApproval => 'Санхүүгийн баталгаажуулалт';
 
   @override
   String get financialApprovalDesc =>
-      'Таны санхүүгийн мэдээлэл баталгаажаагүй байна!';
+      'Таны санхүүгийн мэдээлэл хараахан баталгаажаагүй байна.';
 
   @override
   String get localization => 'Байршил';
@@ -1304,7 +1313,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get country => 'Улс';
 
   @override
-  String get province => 'Аймаг/Муж';
+  String get province => 'Аймаг / Муж';
 
   @override
   String get city => 'Хот';
@@ -1313,10 +1322,10 @@ class AppLocalizationsEn extends AppLocalizations {
   String get district => 'Дүүрэг';
 
   @override
-  String get passwordUpdateDesc => 'Нууц үг амжилттай шинэчлэгдлээ';
+  String get passwordUpdateDesc => 'Нууц үг амжилттай шинэчлэгдлээ.';
 
   @override
-  String get sendDataDesc => 'Өгөгдөл илгээж байна... Түр хүлээнэ үү';
+  String get sendDataDesc => 'Өгөгдөл илгээж байна. Түр хүлээнэ үү...';
 
   @override
   String get myResults => 'Миний үр дүн';
@@ -1343,49 +1352,50 @@ class AppLocalizationsEn extends AppLocalizations {
   String get passedStudents => 'Тэнцсэн оюутнууд';
 
   @override
-  String get backToQuizzes => 'Шалгалтууд руу буцах';
+  String get backToQuizzes => 'Шалгалтын жагсаалт руу буцах';
 
   @override
-  String get noResults => 'Үр дүн алга!';
+  String get noResults => 'Үр дүн алга';
 
   @override
-  String get youHaveNoQuizResults => 'Танд шалгалтын үр дүн алга.';
+  String get youHaveNoQuizResults => 'Танд шалгалтын үр дүн хараахан алга.';
 
   @override
-  String get noStudentResults => 'Оюутны үр дүн алга!';
+  String get noStudentResults => 'Оюутны үр дүн алга';
 
   @override
-  String get noStudentResultsDesc => 'Таны оюутнуудад одоогоор үр дүн байхгүй.';
+  String get noStudentResultsDesc =>
+      'Таны оюутнуудад хараахан үр дүн гаргаагүй байна.';
 
   @override
   String get youPassedTheQuiz => 'Та шалгалтад тэнцлээ';
 
   @override
   String get youPassedTheQuizDesc =>
-      'Баяр хүргэе! Та шалгалтыг амжилттай давлаа!';
+      'Баяр хүргэе! Та шалгалтыг амжилттай давлаа.';
 
   @override
   String get waitForFinalResult => 'Эцсийн үр дүнг хүлээнэ үү';
 
   @override
   String get waitForFinalResultDesc =>
-      'Тайлбарлах асуултуудтай тул багшийн үнэлгээг хүлээнэ үү.';
+      'Тайлбар бичих асуултуудтай тул багшийн үнэлгээг хүлээх шаардлагатай.';
 
   @override
   String get youFailedTheQuiz => 'Та шалгалтад унав';
 
   @override
   String get youFailedTheQuizDesc =>
-      'Харамсалтай! Та унасан байна.\nДахин оролдож болно.';
+      'Харамсалтай байна. Дахин оролдоод үзээрэй.';
 
   @override
   String get submitDate => 'Илгээсэн огноо';
 
   @override
-  String get reviewQuiz => 'Шалгалт шалгах';
+  String get reviewQuiz => 'Шалгалтыг шалгах';
 
   @override
-  String get reviewAnswers => 'Хариултуудыг шалгах';
+  String get reviewAnswers => 'Хариултыг шалгах';
 
   @override
   String get retry => 'Дахин оролдох';
@@ -1430,7 +1440,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get thisQuizIncludes => 'Энэ шалгалт нь';
 
   @override
-  String get questionsForReview => 'ашигтай хяналтын асуулттай.';
+  String get questionsForReview => 'хяналтын асуултуудтай.';
 
   @override
   String get typeYourAnswerHere => 'Хариултаа энд бичнэ үү';
@@ -1443,16 +1453,16 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get reviewTheResultDesc =>
-      'Тайлбарлах асуултуудтай тул та шалгана уу.';
+      'Тайлбар бичих асуултуудтай тул та өөрөө шалгана уу.';
 
   @override
-  String get quizCerts => 'Шалгалтын сертификатууд';
+  String get quizCerts => 'Шалгалтын сертификат';
 
   @override
-  String get completionCerts => 'Дуусгасан сертификатууд';
+  String get completionCerts => 'Дуусгасан сертификат';
 
   @override
-  String get classCerts => 'Курсийн сертификатууд';
+  String get classCerts => 'Курсийн сертификат';
 
   @override
   String get certificateDetails => 'Сертификатын дэлгэрэнгүй';
@@ -1462,7 +1472,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get shareCertificateDesc =>
-      'Сертификатаа сошиал сүлжээнд хуваалцаж бусдыг урамшуул.';
+      'Сертификатаа сошиалд байршуулж, бусдыг урамшуул.';
 
   @override
   String get takenDate => 'Олгосон огноо';
@@ -1481,22 +1491,22 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get certificateOverviewDesc =>
-      'Доорх мэдээллээр суралцах чанарыг үнэлнэ үү';
+      'Доорх мэдээллээр сургалтын чанарыг үнэлээрэй.';
 
   @override
   String get certificateStudents => 'Сертификаттай суралцагчид';
 
   @override
-  String get youHaveNotAccess => 'Энэ хэсэгт хандах эрхгүй байна';
+  String get youHaveNotAccess => 'Энэ хэсэгт хандах эрхгүй байна.';
 
   @override
   String get achievements => 'Амжилтууд';
 
   @override
-  String get noCertificates => 'Сертификат алга!';
+  String get noCertificates => 'Сертификат алга';
 
   @override
-  String get noCertificatesDesc => 'Танд одоогоор сертификат байхгүй.';
+  String get noCertificatesDesc => 'Танд одоогоор сертификат байхгүй байна.';
 
   @override
   String get activePlan => 'Идэвхтэй\nбагц';
@@ -1511,22 +1521,22 @@ class AppLocalizationsEn extends AppLocalizations {
   String get selectAPlan => 'Багц сонгох';
 
   @override
-  String get daysOfSubscription => 'Гишүүнчлэлийн өдрүүд';
+  String get daysOfSubscription => 'Гишүүнчлэлийн хугацаа (өдөр)';
 
   @override
   String get classesSubscription => 'Курсийн гишүүнчлэл';
 
   @override
-  String get noActiveSubscriptionPlan => 'Идэвхтэй гишүүнчлэл алга';
+  String get noActiveSubscriptionPlan => 'Идэвхтэй гишүүнчлэлгүй байна.';
 
   @override
-  String get noFavorites => 'Таалагдсан алга!';
+  String get noFavorites => 'Таалагдсан алга';
 
   @override
-  String get noFavoritesDesc => 'Таалагдсан курсуудаа жагсаалтад нэмээрэй.';
+  String get noFavoritesDesc => 'Таалагдсан курс, багшаа эндээс хадгалаарай.';
 
   @override
-  String get newEvents => 'шинэ үйл явдал';
+  String get newEvents => 'шинэ үйл явдал байна';
 
   @override
   String get pendingMessages => 'Хүлээгдэж буй\nмессеж';
@@ -1541,7 +1551,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get monthlySales => 'Сарын\nборлуулалт';
 
   @override
-  String get purchasedCourses => 'Худалдан авсан\nкурсууд';
+  String get purchasedCourses => 'Худалдан авсан\nкурс';
 
   @override
   String get learningStatistics => 'Суралцах статистик';
@@ -1550,7 +1560,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get monthSales => 'Сарын борлуулалт';
 
   @override
-  String get tickets => 'Тасалбарууд';
+  String get tickets => 'Тасалбар / Тикет';
 
   @override
   String get classesSupport => 'Курсийн дэмжлэг';
@@ -1568,10 +1578,10 @@ class AppLocalizationsEn extends AppLocalizations {
   String get selectDepartment => 'Хэлтэс сонгох';
 
   @override
-  String get replyToSupport => 'Дэмжлэгт хариулах';
+  String get replyToSupport => 'Дэмжлэгт хариу бичих';
 
   @override
-  String get replyToConversation => 'Ярилцлагад хариулах';
+  String get replyToConversation => 'Ярилцлагад хариу бичих';
 
   @override
   String get support_messages => 'Дэмжлэгийн мессежүүд';
@@ -1580,20 +1590,21 @@ class AppLocalizationsEn extends AppLocalizations {
   String get closed => 'Хаагдсан';
 
   @override
-  String get noTickets => 'Тасалбар алга!';
+  String get noTickets => 'Тасалбар алга';
 
   @override
-  String get noTicketsDesc => 'Тусламж хэрэгтэй юу? Шинэ хүсэлт үүсгэнэ үү.';
+  String get noTicketsDesc =>
+      'Асуудал гарсан уу? Шинэ тусламжийн хүсэлт үүсгээрэй.';
 
   @override
   String get message => 'Мессеж';
 
   @override
-  String get removeFromFavorites => 'Таалагдсанаас устгах';
+  String get removeFromFavorites => 'Таалагдсанаас хасах';
 
   @override
   String get thisIsACourseSupportMessage =>
-      'Энэ нь курсийн дэмжлэгийн мессеж юм';
+      'Энэ нь курсийн дэмжлэгийн мессеж юм.';
 
   @override
   String get currentPassword => 'Одоогийн нууц үг';
@@ -1602,7 +1613,8 @@ class AppLocalizationsEn extends AppLocalizations {
   String get newPassword => 'Шинэ нууц үг';
 
   @override
-  String get passwordAndRetypePassNotMatch => 'Шинэ нууц үгүүд таарахгүй байна';
+  String get passwordAndRetypePassNotMatch =>
+      'Шинэ нууц үг хоорондоо таарахгүй байна.';
 
   @override
   String get nextBadges => 'Дараагийн медаль';
@@ -1620,16 +1632,16 @@ class AppLocalizationsEn extends AppLocalizations {
   String get pointsHistory => 'Онооны түүх';
 
   @override
-  String get loginDesc => 'Энэ хуудсын мэдээллийг харахын тулд нэвтэрнэ үү';
+  String get loginDesc => 'Энэ хэсгийн мэдээллийг харахын тулд нэвтэрнэ үү.';
 
   @override
-  String get freeCourses => 'Үнэгүй курсууд!';
+  String get freeCourses => 'Үнэгүй курсууд';
 
   @override
-  String get bySpendingPoints => 'Оноо зарцуулж';
+  String get bySpendingPoints => 'Оноо зарцуулан';
 
   @override
-  String get saaSPackages => 'SaaS багцууд';
+  String get saaSPackages => 'SaaS багц';
 
   @override
   String get activationDate => 'Идэвхжсэн\nогноо';
@@ -1638,19 +1650,19 @@ class AppLocalizationsEn extends AppLocalizations {
   String get accountStatistics => 'Бүртгэлийн статистик';
 
   @override
-  String get newCourses => 'Шинэ\nкурсууд';
+  String get newCourses => 'Шинэ\nкурс';
 
   @override
   String get liveClassCapacity => 'Шууд хичээлийн\nбагтаамж';
 
   @override
-  String get meetingTimeSlots => 'Уулзалтын\nцагууд';
+  String get meetingTimeSlots => 'Уулзалтын\nцагийн слот';
 
   @override
-  String get newStudents => 'Шинэ\nоюутнууд';
+  String get newStudents => 'Шинэ\nсуралцагч';
 
   @override
-  String get newInstructors => 'Шинэ\nбагш нар';
+  String get newInstructors => 'Шинэ\nбагш';
 
   @override
   String get getCashback => 'Кэшбэк авах';
@@ -1662,7 +1674,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get cashback => 'кэшбэк аваарай!';
 
   @override
-  String get skip => 'алгасах';
+  String get skip => 'Алгасах';
 
   @override
   String get purchaseThisCourseAndGet => 'Энэ курсыг худалдаж аваад ';
@@ -1686,7 +1698,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get inappSession => 'Апп доторх сесс';
 
   @override
-  String get customSession => 'Тусгай сесс';
+  String get customSession => 'Гаднын (custom) сесс';
 
   @override
   String get newInappLiveSession => 'Шинэ апп доторх шууд сесс';
@@ -1696,25 +1708,25 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get inappLiveSessionQuestion =>
-      'Энэ уулзалтад апп доторх шууд сесс үүсгэх үү?';
+      'Энэ уулзалтад апп дотор шууд сесс үүсгэх үү?';
 
   @override
-  String get theMeetingDateIs => 'Уулзалтын огноо: ';
+  String get theMeetingDateIs => 'Уулзалт болох огноо: ';
 
   @override
   String get liveSessionCreated => 'Шууд сесс үүсгэлээ';
 
   @override
-  String get youCanJoinItNow => 'Та одоо нэгдэж болно';
+  String get youCanJoinItNow => 'Та одоо нэгдэж болно.';
 
   @override
   String get create => 'Үүсгэх';
 
   @override
-  String get latestBundles => 'Хамгийн сүүлийн багцууд';
+  String get latestBundles => 'Шинэ багцууд';
 
   @override
-  String get chapters => 'Бүлгүүд';
+  String get chapters => 'Бүлэг';
 
   @override
   String get newMessage => 'Шинэ мессеж';
@@ -1726,18 +1738,17 @@ class AppLocalizationsEn extends AppLocalizations {
   String get messageBody => 'Мессежийн агуулга';
 
   @override
-  String get privateContent => 'Хувийн контент!';
+  String get privateContent => 'Хувийн контент';
 
   @override
-  String get privateContentDesc =>
-      'Курсын контентод хандахын тулд нэвтэрнэ үү.';
+  String get privateContentDesc => 'Энэ контентод хандахын тулд нэвтэрнэ үү.';
 
   @override
-  String get pendingVerification => 'Шалгагдаж байна!';
+  String get pendingVerification => 'Шалгагдаж байна';
 
   @override
   String get pendingVerificationDesc =>
-      'Таны бүртгэл шалгагдаж байна. Зөвшөөрөгдсөний дараа хандана.';
+      'Таны бүртгэлийг админ шалгаж байна. Зөвшөөрөгдсөний дараа бүрэн хандах боломжтой.';
 
   @override
   String get private => 'Хувийн';
@@ -1752,20 +1763,20 @@ class AppLocalizationsEn extends AppLocalizations {
   String get selectCountry => 'Улс сонгох';
 
   @override
-  String get selectCountryDesc => 'Улс эсвэл кодоор хайна уу';
+  String get selectCountryDesc => 'Улс эсвэл кодоор хайна уу.';
 
   @override
   String get exit => 'Гарах';
 
   @override
-  String get exitDesc => 'Та гарахдаа итгэлтэй байна уу?';
+  String get exitDesc => 'Апп-ыг хаахдаа итгэлтэй байна уу?';
 
   @override
   String get loginHistory => 'Нэвтрэлтийн түүх';
 
   @override
   String get loginHistoryDesc =>
-      'Бүртгэлийн нэвтрэлтийн түүхийг гүйлгэн харна уу';
+      'Таны бүртгэлд хэдийд, ямар төхөөрөмжөөс нэвтэрснийг эндээс харна.';
 
   @override
   String get os => 'ҮС';
@@ -1798,17 +1809,17 @@ class AppLocalizationsEn extends AppLocalizations {
   String get editNote => 'Тэмдэглэл засах';
 
   @override
-  String get networkProblem => 'Сүлжээний асуудал...';
+  String get networkProblem => 'Сүлжээний алдаа';
 
   @override
   String get networkProblemDesc =>
-      'Интернэт холболтоо шалгаад дахин оролдоно уу...';
+      'Интернэт холболтоо шалгаад дахин оролдоно уу.';
 
   @override
   String get myCourses => 'Миний курсууд';
 
   @override
-  String get studentPassedTheQuiz => 'Оюутан шалгалтыг давлаа';
+  String get studentPassedTheQuiz => 'Оюутан шалгалтыг давсан';
 
   @override
   String get enterACouponCode => 'Купоны код оруулах';
@@ -1830,8 +1841,9 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get deleteAccountDesc =>
-      'Админы зөвшөөрлийн дараа таны бүртгэл платформоос устгагдана. Энэ үйлдлийг буцаах боломжгүй.';
+      'Админ баталгаажуулсны дараа таны бүртгэл платформоос бүр мөсөн устгагдана. Энэ үйлдлийг буцаах боломжгүй.';
 
   @override
-  String get serverExceptionError => 'Серверээс мэдээлэл авахад алдаа гарлаа.';
+  String get serverExceptionError =>
+      'Серверээс мэдээлэл авах үед алдаа гарлаа.';
 }

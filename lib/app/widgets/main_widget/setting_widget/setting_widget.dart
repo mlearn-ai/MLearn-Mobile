@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:image_picker/image_picker.dart';
+// import 'package:image_picker/image_picker.dart';
 import 'package:webinar/app/models/login_history_model.dart';
 import 'package:webinar/common/common.dart';
 import 'package:webinar/common/components.dart';
@@ -271,7 +271,7 @@ class SettingWidget {
     bool isApprovedIndentity,
     bool isApprovedCertificate,
 
-    Function(ImageSource source) selectIndentityImage,
+    // Function(ImageSource source) selectIndentityImage,
     Function() selectCertificateImage,
     
   ){

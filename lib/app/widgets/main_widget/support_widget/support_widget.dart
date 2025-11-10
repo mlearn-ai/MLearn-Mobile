@@ -8,7 +8,7 @@ import 'package:webinar/app/services/user_service/support_service.dart';
 import 'package:webinar/app/services/user_service/user_service.dart';
 import 'package:webinar/common/common.dart';
 import 'package:webinar/config/colors.dart';
-import 'package:image_picker/image_picker.dart' as imagePicker;
+// import 'package:image_picker/image_picker.dart' as imagePicker;
 
 import '../../../../common/components.dart';
 import '../../../../common/utils/app_text.dart';
@@ -99,24 +99,24 @@ class SupportWidget{
                         button(
                           onTap: () async {
 
-                            final imagePicker.ImagePicker picker = imagePicker.ImagePicker();
-                            final imagePicker.XFile? image = await picker.pickImage(source: imagePicker.ImageSource.gallery);
+                            // final imagePicker.ImagePicker picker = imagePicker.ImagePicker();
+                            // final imagePicker.XFile? image = await picker.pickImage(source: imagePicker.ImageSource.gallery);
 
 
-                            if(image != null){
-                              Directory appDocDir = await getApplicationDocumentsDirectory();
-                              String address = '${appDocDir.path}/${DateTime.now().millisecond}.jpg';
+                            // if(image != null){
+                            //   Directory appDocDir = await getApplicationDocumentsDirectory();
+                            //   String address = '${appDocDir.path}/${DateTime.now().millisecond}.jpg';
 
-                              var result = await FlutterImageCompress.compressAndGetFile(
-                                File(image.path).path, 
-                                address,
-                                quality: 75,
-                                minWidth: 700,
-                              );
+                            //   var result = await FlutterImageCompress.compressAndGetFile(
+                            //     File(image.path).path, 
+                            //     address,
+                            //     quality: 75,
+                            //     minWidth: 700,
+                            //   );
 
-                              attachment = File(result!.path);
+                            //   attachment = File(result!.path);
                              
-                            }
+                            // }
 
                             
                           }, 
@@ -268,24 +268,24 @@ class SupportWidget{
                         button(
                           onTap: () async {
 
-                            final imagePicker.ImagePicker picker = imagePicker.ImagePicker();
-                            final imagePicker.XFile? image = await picker.pickImage(source: imagePicker.ImageSource.gallery);
+                            // final imagePicker.ImagePicker picker = imagePicker.ImagePicker();
+                            // final imagePicker.XFile? image = await picker.pickImage(source: imagePicker.ImageSource.gallery);
 
 
-                            if(image != null){
-                              Directory appDocDir = await getApplicationDocumentsDirectory();
-                              String address = '${appDocDir.path}/${DateTime.now().millisecond}.jpg';
+                            // if(image != null){
+                            //   Directory appDocDir = await getApplicationDocumentsDirectory();
+                            //   String address = '${appDocDir.path}/${DateTime.now().millisecond}.jpg';
 
-                              var result = await FlutterImageCompress.compressAndGetFile(
-                                File(image.path).path, 
-                                address,
-                                quality: 75,
-                                minWidth: 700,
-                              );
+                            //   var result = await FlutterImageCompress.compressAndGetFile(
+                            //     File(image.path).path, 
+                            //     address,
+                            //     quality: 75,
+                            //     minWidth: 700,
+                            //   );
 
-                              attachment = File(result!.path);
+                            //   attachment = File(result!.path);
                              
-                            }
+                            // }
 
                             
                           }, 

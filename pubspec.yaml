@@ -60,7 +60,7 @@ dependencies:
   path_provider: ^2.1.0
   open_file: any
   flutter_image_compress: ^2.0.4
-  image_picker: ^1.1.2
+  # image_picker: ^1.2.0
   flutter_slidable: ^3.0.0
   webview_flutter: ^4.13.0
   pod_player: ^0.2.2
@@ -84,6 +84,7 @@ dependencies:
   app_links: ^6.3.3
   #youtube_player_embed: ^1.6.4
   flutter_gen: ^5.9.0
+  agora_rtc_engine: ^6.3.2
   
   
   

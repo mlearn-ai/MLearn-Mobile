@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter_image_compress/flutter_image_compress.dart';
-import 'package:image_picker/image_picker.dart';
+// import 'package:image_picker/image_picker.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:webinar/common/common.dart';
 import 'package:webinar/common/components.dart';
@@ -56,15 +56,15 @@ class _RegisterAttachmentWidgetState extends State<RegisterAttachmentWidget> {
           leftIconColor: greyB2,
           leftIconSize: 14,
           onTap: () async {
-            final ImagePicker picker = ImagePicker();
-            final XFile? image = await picker.pickImage(source: ImageSource.gallery);
+            // final ImagePicker picker = ImagePicker();
+            // final XFile? image = await picker.pickImage(source: ImageSource.gallery);
       
-            if(image != null){
-              file = await compressImage(image);
-              setState(() {});
+            // if(image != null){
+            //   file = await compressImage(image);
+            //   setState(() {});
       
-              widget.setData(file!);
-            }
+            //   widget.setData(file!);
+            // }comment
           }
         ),
       ),

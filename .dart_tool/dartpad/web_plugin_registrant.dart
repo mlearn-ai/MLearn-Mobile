@@ -6,6 +6,7 @@
 // @dart = 2.13
 // ignore_for_file: type=lint
 
+import 'package:agora_rtc_engine/agora_rtc_engine_web.dart';
 import 'package:app_links_web/app_links_web.dart';
 import 'package:audio_session/audio_session_web.dart';
 import 'package:connectivity_plus/src/connectivity_plus_web.dart';
@@ -19,7 +20,7 @@ import 'package:flutter_native_splash/flutter_native_splash_web.dart';
 import 'package:flutter_secure_storage_web/flutter_secure_storage_web.dart';
 import 'package:flutter_tts/flutter_tts_web.dart';
 import 'package:google_sign_in_web/google_sign_in_web.dart';
-import 'package:image_picker_for_web/image_picker_for_web.dart';
+import 'package:iris_method_channel/iris_method_channel_web.dart';
 import 'package:just_audio_web/just_audio_web.dart';
 import 'package:open_file_web/open_file_web.dart';
 import 'package:package_info_plus/src/package_info_plus_web.dart';
@@ -35,6 +36,7 @@ import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 
 void registerPlugins([final Registrar? pluginRegistrar]) {
   final Registrar registrar = pluginRegistrar ?? webPluginRegistrar;
+  AgoraRtcEngineWeb.registerWith(registrar);
   AppLinksPluginWeb.registerWith(registrar);
   AudioSessionWeb.registerWith(registrar);
   ConnectivityPlusWebPlugin.registerWith(registrar);
@@ -48,7 +50,7 @@ void registerPlugins([final Registrar? pluginRegistrar]) {
   FlutterSecureStorageWeb.registerWith(registrar);
   FlutterTtsPlugin.registerWith(registrar);
   GoogleSignInPlugin.registerWith(registrar);
-  ImagePickerPlugin.registerWith(registrar);
+  IrisMethodChannelWeb.registerWith(registrar);
   JustAudioPlugin.registerWith(registrar);
   OpenFilePlugin.registerWith(registrar);
   PackageInfoPlusWebPlugin.registerWith(registrar);

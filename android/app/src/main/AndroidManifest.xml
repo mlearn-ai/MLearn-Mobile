@@ -98,7 +98,7 @@
         <meta-data android:name="com.facebook.sdk.ClientToken" android:value="@string/facebook_client_token"/>
 
 
-        <provider
+        <!-- <provider
             android:name="com.pichillilorenzo.flutter_inappwebview_android.InAppWebViewFileProvider"
             android:authorities="${applicationId}.flutter_inappwebview_android.fileprovider"
             android:exported="false"
@@ -106,7 +106,7 @@
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/provider_paths" />
-        </provider>
+        </provider> -->
 
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_channel_id"

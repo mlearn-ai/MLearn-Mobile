@@ -107,7 +107,7 @@ abstract class AppLocalizations {
   /// No description provided for @splashDesc.
   ///
   /// In en, this message translates to:
-  /// **'Сурах хамгийн хялбар арга...'**
+  /// **'Сурах хамгийн ухаалаг, хамгийн хялбар арга.'**
   String get splashDesc;
 
   /// No description provided for @introTitle1.
@@ -119,43 +119,43 @@ abstract class AppLocalizations {
   /// No description provided for @introTitle2.
   ///
   /// In en, this message translates to:
-  /// **'Уулзалт товло...'**
+  /// **'Хувийн уулзалт товлоорой'**
   String get introTitle2;
 
   /// No description provided for @introTitle3.
   ///
   /// In en, this message translates to:
-  /// **'Ур чадвараа заа!'**
+  /// **'Ур чадвараа бусдад заа'**
   String get introTitle3;
 
   /// No description provided for @introTitle4.
   ///
   /// In en, this message translates to:
-  /// **'Одоо суралцаж эхэл'**
+  /// **'Хүссэн зүйлээ одоо суралц'**
   String get introTitle4;
 
   /// No description provided for @introDesc1.
   ///
   /// In en, this message translates to:
-  /// **'Дэлхийн шилдэг багш нараас суралцах сонирхолтой байна уу?'**
+  /// **'Дэлхийн өнцөг булан бүрийн шилдэг багш нараас онлайн суралцаарай.'**
   String get introDesc1;
 
   /// No description provided for @introDesc2.
   ///
   /// In en, this message translates to:
-  /// **'Хувийн багш хайж байна уу? Одоо л хувийн уулзалтаа захиалаарай!'**
+  /// **'Чамд өдөр бүр чиглүүлэх хувийн багш хэрэгтэй байна уу? Одоо уулзалтаа захиалаад хичээллэ.'**
   String get introDesc2;
 
   /// No description provided for @introDesc3.
   ///
   /// In en, this message translates to:
-  /// **'Өөрийн үнэт мэдлэгээ бусадтай хуваалцаж, яг одоо зааж эхэл.'**
+  /// **'Өөрийн мэдлэг, туршлагаа бусадтай хуваалцаж, багш болж орлогоо нэмэгдүүлээрэй.'**
   String get introDesc3;
 
   /// No description provided for @introDesc4.
   ///
   /// In en, this message translates to:
-  /// **'Янз бүрийн сэдвээр шилдэг багш нараас суралцаарай.'**
+  /// **'Янз бүрийн сэдвээр монгол болон гадаад багш нараас системтэйгээр суралц.'**
   String get introDesc4;
 
   /// No description provided for @getStart.
@@ -179,25 +179,25 @@ abstract class AppLocalizations {
   /// No description provided for @skipLogin.
   ///
   /// In en, this message translates to:
-  /// **'Нэвтрэлгүй алгасах'**
+  /// **'Зочны горимоор үргэлжлүүлэх'**
   String get skipLogin;
 
   /// No description provided for @createAccount.
   ///
   /// In en, this message translates to:
-  /// **'Бүртгэл үүсгэх'**
+  /// **'Шинэ бүртгэл үүсгэх'**
   String get createAccount;
 
   /// No description provided for @createAccountDesc.
   ///
   /// In en, this message translates to:
-  /// **'Одоо нэгдээд суралцаж, зааж эхлээрэй'**
+  /// **'Одоо нэгдээд суралцаж, бусдад зааж эхлээрэй.'**
   String get createAccountDesc;
 
   /// No description provided for @yourEmail.
   ///
   /// In en, this message translates to:
-  /// **'Таны имэйл'**
+  /// **'Имэйл хаяг'**
   String get yourEmail;
 
   /// No description provided for @password.
@@ -209,7 +209,7 @@ abstract class AppLocalizations {
   /// No description provided for @retypePassword.
   ///
   /// In en, this message translates to:
-  /// **'Нууц үгээ дахин оруулах'**
+  /// **'Нууц үгийг дахин оруулах'**
   String get retypePassword;
 
   /// No description provided for @createAnAccount.
@@ -221,13 +221,13 @@ abstract class AppLocalizations {
   /// No description provided for @termsPoliciesDesc.
   ///
   /// In en, this message translates to:
-  /// **'Манай үйлчилгээг ашигласнаар та\nманай Нөхцөл ба Бодлогыг зөвшөөрч байна.'**
+  /// **'Манай үйлчилгээг ашигласнаар та\nНөхцөл, Бодлогыг зөвшөөрч байна.'**
   String get termsPoliciesDesc;
 
   /// No description provided for @haveAnAccount.
   ///
   /// In en, this message translates to:
-  /// **'Бүртгэлтэй юу?'**
+  /// **'Өмнө нь бүртгүүлсэн үү?'**
   String get haveAnAccount;
 
   /// No description provided for @welcomeBack.
@@ -239,7 +239,7 @@ abstract class AppLocalizations {
   /// No description provided for @welcomeBackDesc.
   ///
   /// In en, this message translates to:
-  /// **'Бүртгэлдээ нэвтэрч суралцах аяллаа үргэлжлүүлээрэй...'**
+  /// **'Бүртгэлдээ нэвтэрч, суралцах аяллаа үргэлжлүүлээрэй.'**
   String get welcomeBackDesc;
 
   /// No description provided for @emailOrPhone.
@@ -257,19 +257,19 @@ abstract class AppLocalizations {
   /// No description provided for @forgetPassword.
   ///
   /// In en, this message translates to:
-  /// **'Нууц үгээ мартсан'**
+  /// **'Нууц үгээ мартсан?'**
   String get forgetPassword;
 
   /// No description provided for @forgetPasswordDesc.
   ///
   /// In en, this message translates to:
-  /// **'Санаа зоволтгүй, таны нууц үгийг дахин тохируулна.'**
+  /// **'Санаа зоволтгүй, таны нууц үгийг шинэчлэхэд тусалъя.'**
   String get forgetPasswordDesc;
 
   /// No description provided for @haventReceiveTheCode.
   ///
   /// In en, this message translates to:
-  /// **'Код ирээгүй байна уу?'**
+  /// **'Код ирээгүй юу?'**
   String get haventReceiveTheCode;
 
   /// No description provided for @resendCode.
@@ -281,7 +281,7 @@ abstract class AppLocalizations {
   /// No description provided for @verifyMyAccount.
   ///
   /// In en, this message translates to:
-  /// **'Бүртгэлээ баталгаажуулах'**
+  /// **'Бүртгэл баталгаажуулах'**
   String get verifyMyAccount;
 
   /// No description provided for @accountVerification.
@@ -293,7 +293,7 @@ abstract class AppLocalizations {
   /// No description provided for @accountVerificationDesc.
   ///
   /// In en, this message translates to:
-  /// **'Танд ирсэн баталгаажуулах кодыг оруулна уу...'**
+  /// **'Танд ирсэн баталгаажуулах кодыг оруулна уу.'**
   String get accountVerificationDesc;
 
   /// No description provided for @selectlanguage.
@@ -305,7 +305,7 @@ abstract class AppLocalizations {
   /// No description provided for @searchCountry.
   ///
   /// In en, this message translates to:
-  /// **'Улс эсвэл хэл хайх'**
+  /// **'Улс эсвэл хэлээр хайх'**
   String get searchCountry;
 
   /// No description provided for @cancel.
@@ -317,7 +317,7 @@ abstract class AppLocalizations {
   /// No description provided for @alreadyHaveAnAccount.
   ///
   /// In en, this message translates to:
-  /// **'Бүртгэлтэй байна уу?'**
+  /// **'Бүртгэлтэй юу?'**
   String get alreadyHaveAnAccount;
 
   /// No description provided for @phoneNumber.
@@ -335,37 +335,37 @@ abstract class AppLocalizations {
   /// No description provided for @dashboard.
   ///
   /// In en, this message translates to:
-  /// **'Хянах самбар'**
+  /// **'Хяналтын самбар'**
   String get dashboard;
 
   /// No description provided for @classes.
   ///
   /// In en, this message translates to:
-  /// **'Хичээлүүд'**
+  /// **'Хичээл'**
   String get classes;
 
   /// No description provided for @meetings.
   ///
   /// In en, this message translates to:
-  /// **'Уулзалтууд'**
+  /// **'Уулзалт'**
   String get meetings;
 
   /// No description provided for @assignments.
   ///
   /// In en, this message translates to:
-  /// **'Даалгаврууд'**
+  /// **'Даалгавар'**
   String get assignments;
 
   /// No description provided for @quizzes.
   ///
   /// In en, this message translates to:
-  /// **'Шалгалтууд'**
+  /// **'Шалгалт'**
   String get quizzes;
 
   /// No description provided for @certificates.
   ///
   /// In en, this message translates to:
-  /// **'Сертификатууд'**
+  /// **'Сертификат'**
   String get certificates;
 
   /// No description provided for @favorites.
@@ -377,7 +377,7 @@ abstract class AppLocalizations {
   /// No description provided for @comments.
   ///
   /// In en, this message translates to:
-  /// **'Сэтгэгдлүүд'**
+  /// **'Сэтгэгдэл'**
   String get comments;
 
   /// No description provided for @financial.
@@ -413,13 +413,13 @@ abstract class AppLocalizations {
   /// No description provided for @letsStartLearning.
   ///
   /// In en, this message translates to:
-  /// **'Суралцалтаа эхэлье!'**
+  /// **'өнөөдөр юу сурмаар байна?'**
   String get letsStartLearning;
 
   /// No description provided for @searchInputDesc.
   ///
   /// In en, this message translates to:
-  /// **'Юуг хайх гэж байна вэ?'**
+  /// **'Юуг хайж байна вэ?'**
   String get searchInputDesc;
 
   /// No description provided for @viewAll.
@@ -449,7 +449,7 @@ abstract class AppLocalizations {
   /// No description provided for @bestSelling.
   ///
   /// In en, this message translates to:
-  /// **'Хамгийн их борлуулалттай'**
+  /// **'Хамгийн их зарагдсан'**
   String get bestSelling;
 
   /// No description provided for @discountedClasses.
@@ -473,7 +473,7 @@ abstract class AppLocalizations {
   /// No description provided for @notConducted.
   ///
   /// In en, this message translates to:
-  /// **'Хийгдээгүй'**
+  /// **'Явагдаагүй'**
   String get notConducted;
 
   /// No description provided for @inProgress.
@@ -509,19 +509,19 @@ abstract class AppLocalizations {
   /// No description provided for @featured.
   ///
   /// In en, this message translates to:
-  /// **'Онцлох'**
+  /// **'Онцгой'**
   String get featured;
 
   /// No description provided for @hours.
   ///
   /// In en, this message translates to:
-  /// **'Цаг'**
+  /// **'цаг'**
   String get hours;
 
   /// No description provided for @categories.
   ///
   /// In en, this message translates to:
-  /// **'Ангиллууд'**
+  /// **'Ангилал'**
   String get categories;
 
   /// No description provided for @providers.
@@ -551,7 +551,7 @@ abstract class AppLocalizations {
   /// No description provided for @refCode.
   ///
   /// In en, this message translates to:
-  /// **'Реферал код'**
+  /// **'Урилгын код'**
   String get refCode;
 
   /// No description provided for @continue_.
@@ -581,7 +581,7 @@ abstract class AppLocalizations {
   /// No description provided for @browseCategories.
   ///
   /// In en, this message translates to:
-  /// **'Ангиллуудыг үзэх'**
+  /// **'Ангиллуудыг харах'**
   String get browseCategories;
 
   /// No description provided for @courses.
@@ -593,31 +593,31 @@ abstract class AppLocalizations {
   /// No description provided for @options.
   ///
   /// In en, this message translates to:
-  /// **'Сонголтууд'**
+  /// **'Сонголт'**
   String get options;
 
   /// No description provided for @filters.
   ///
   /// In en, this message translates to:
-  /// **'Шүүлтүүрүүд'**
+  /// **'Шүүлтүүр'**
   String get filters;
 
   /// No description provided for @dataNotFound.
   ///
   /// In en, this message translates to:
-  /// **'Өгөгдөл олдсонгүй...'**
+  /// **'Өгөгдөл алга'**
   String get dataNotFound;
 
   /// No description provided for @dataNotFoundDesc.
   ///
   /// In en, this message translates to:
-  /// **'Энэ хуудсанд үзүүлэх мэдээлэл алга байна.'**
+  /// **'Энд харагдуулах зүйл одоогоор алга байна.'**
   String get dataNotFoundDesc;
 
   /// No description provided for @upcomingClasses.
   ///
   /// In en, this message translates to:
-  /// **'Тун удахгүй болох хичээлүүд'**
+  /// **'Удахгүй эхлэх хичээлүүд'**
   String get upcomingClasses;
 
   /// No description provided for @downloadableContent.
@@ -641,31 +641,31 @@ abstract class AppLocalizations {
   /// No description provided for @newest.
   ///
   /// In en, this message translates to:
-  /// **'Хамгийн шинэ'**
+  /// **'Шинэ эхэлсэн'**
   String get newest;
 
   /// No description provided for @highestPrice.
   ///
   /// In en, this message translates to:
-  /// **'Хамгийн өндөр үнэ'**
+  /// **'Өндөр үнэтэй'**
   String get highestPrice;
 
   /// No description provided for @lowestPrice.
   ///
   /// In en, this message translates to:
-  /// **'Хамгийн бага үнэ'**
+  /// **'Бага үнэтэй'**
   String get lowestPrice;
 
   /// No description provided for @bestSellers.
   ///
   /// In en, this message translates to:
-  /// **'Хамгийн борлуулалттай'**
+  /// **'Их зарагдсан'**
   String get bestSellers;
 
   /// No description provided for @applyOptions.
   ///
   /// In en, this message translates to:
-  /// **'Сонголтыг хэрэглэх'**
+  /// **'Сонголтыг хэрэгжүүлэх'**
   String get applyOptions;
 
   /// No description provided for @filterItems.
@@ -701,7 +701,7 @@ abstract class AppLocalizations {
   /// No description provided for @searchResultDesc.
   ///
   /// In en, this message translates to:
-  /// **' Үр дүн олдлоо: '**
+  /// **'Үр дүн олдлоо: '**
   String get searchResultDesc;
 
   /// No description provided for @suggestedRandom.
@@ -725,13 +725,13 @@ abstract class AppLocalizations {
   /// No description provided for @resultNotFound.
   ///
   /// In en, this message translates to:
-  /// **'Үр дүн олдсонгүй...'**
+  /// **'Үр дүн алга'**
   String get resultNotFound;
 
   /// No description provided for @tryMoreAccurateWordsToReachResults.
   ///
   /// In en, this message translates to:
-  /// **'Илүү тодорхой үг хэрэглэхийг зөвлөе'**
+  /// **'Илүү тодорхой түлхүүр үг ашиглаарай.'**
   String get tryMoreAccurateWordsToReachResults;
 
   /// No description provided for @instrcutors.
@@ -749,25 +749,25 @@ abstract class AppLocalizations {
   /// No description provided for @noInstructor.
   ///
   /// In en, this message translates to:
-  /// **'Багш алга'**
+  /// **'Багш байхгүй байна'**
   String get noInstructor;
 
   /// No description provided for @noInstructorDesc.
   ///
   /// In en, this message translates to:
-  /// **'Энэ апп-д багш хараахан байхгүй байна.'**
+  /// **'Энэ хэсэгт багш бүртгэгдээгүй байна.'**
   String get noInstructorDesc;
 
   /// No description provided for @noOrganization.
   ///
   /// In en, this message translates to:
-  /// **'Байгууллага алга'**
+  /// **'Байгууллага байхгүй байна'**
   String get noOrganization;
 
   /// No description provided for @noOrganizationDesc.
   ///
   /// In en, this message translates to:
-  /// **'Байгууллага байхгүй байна.'**
+  /// **'Одоогоор байгууллага бүртгэгдээгүй байна.'**
   String get noOrganizationDesc;
 
   /// No description provided for @noConsultants.
@@ -779,13 +779,13 @@ abstract class AppLocalizations {
   /// No description provided for @noConsultantsDesc.
   ///
   /// In en, this message translates to:
-  /// **'Зөвлөх бүртгэгдээгүй байна.'**
+  /// **'Одоогоор зөвлөх бүртгэлгүй байна.'**
   String get noConsultantsDesc;
 
   /// No description provided for @availableForMeetings.
   ///
   /// In en, this message translates to:
-  /// **'Уулзалт боломжтой'**
+  /// **'Уулзалт авах боломжтой'**
   String get availableForMeetings;
 
   /// No description provided for @blogPost.
@@ -809,13 +809,13 @@ abstract class AppLocalizations {
   /// No description provided for @submitCommentDesc.
   ///
   /// In en, this message translates to:
-  /// **'Миний туршлагаар энэ багш үнэхээр шилдэг багшдын нэг.'**
+  /// **'Энэ багштай хичээллэх туршлагаа хуваалцаарай.'**
   String get submitCommentDesc;
 
   /// No description provided for @commentOptions.
   ///
   /// In en, this message translates to:
-  /// **'Сэтгэгдлийн сонголтууд'**
+  /// **'Сэтгэгдлийн сонголт'**
   String get commentOptions;
 
   /// No description provided for @reply.
@@ -845,7 +845,7 @@ abstract class AppLocalizations {
   /// No description provided for @messageToReviewer.
   ///
   /// In en, this message translates to:
-  /// **'Хянагчид мессеж'**
+  /// **'Хянагчид явуулах мессеж'**
   String get messageToReviewer;
 
   /// No description provided for @in_.
@@ -857,25 +857,25 @@ abstract class AppLocalizations {
   /// No description provided for @blogCategories.
   ///
   /// In en, this message translates to:
-  /// **'Блогийн ангиллууд'**
+  /// **'Блогийн ангилал'**
   String get blogCategories;
 
   /// No description provided for @noComments.
   ///
   /// In en, this message translates to:
-  /// **'Сэтгэгдэл алга!'**
+  /// **'Сэтгэгдэл алга'**
   String get noComments;
 
   /// No description provided for @noCommentsDesc.
   ///
   /// In en, this message translates to:
-  /// **'Энэхүү нийтлэлд анхны сэтгэгдлээ үлдээгээрэй.'**
+  /// **'Анхны сэтгэгдлээ үлдээгээрэй.'**
   String get noCommentsDesc;
 
   /// No description provided for @noBlogPosts.
   ///
   /// In en, this message translates to:
-  /// **'Нийтлэл алга!'**
+  /// **'Нийтлэл алга'**
   String get noBlogPosts;
 
   /// No description provided for @noBlogPostsDesc.
@@ -893,7 +893,7 @@ abstract class AppLocalizations {
   /// No description provided for @courseDetails.
   ///
   /// In en, this message translates to:
-  /// **'Курсын дэлгэрэнгүй'**
+  /// **'Курсын мэдээлэл'**
   String get courseDetails;
 
   /// No description provided for @information.
@@ -911,7 +911,7 @@ abstract class AppLocalizations {
   /// No description provided for @reviews.
   ///
   /// In en, this message translates to:
-  /// **'Сэтгэгдлүүд'**
+  /// **'Сэтгэгдэл'**
   String get reviews;
 
   /// No description provided for @subscribe.
@@ -989,7 +989,7 @@ abstract class AppLocalizations {
   /// No description provided for @students.
   ///
   /// In en, this message translates to:
-  /// **'Суралцагчид'**
+  /// **'Суралцагч'**
   String get students;
 
   /// No description provided for @capacity.
@@ -1013,7 +1013,7 @@ abstract class AppLocalizations {
   /// No description provided for @prerequisties.
   ///
   /// In en, this message translates to:
-  /// **'Урьдчилсан шаардлага'**
+  /// **'Урьдчилсан нөхцөл'**
   String get prerequisties;
 
   /// No description provided for @addToCart.
@@ -1043,7 +1043,7 @@ abstract class AppLocalizations {
   /// No description provided for @addToFavorites.
   ///
   /// In en, this message translates to:
-  /// **'Таалагдсанд нэмэх'**
+  /// **'Таалагдсан руу нэмэх'**
   String get addToFavorites;
 
   /// No description provided for @share.
@@ -1055,7 +1055,7 @@ abstract class AppLocalizations {
   /// No description provided for @viewMore.
   ///
   /// In en, this message translates to:
-  /// **'Дэлгэрэнгүй үзэх'**
+  /// **'Дэлгэрэнгүй харах'**
   String get viewMore;
 
   /// No description provided for @status.
@@ -1067,13 +1067,13 @@ abstract class AppLocalizations {
   /// No description provided for @downloadable.
   ///
   /// In en, this message translates to:
-  /// **'Татаж авах боломжтой'**
+  /// **'Татаж авч болдог'**
   String get downloadable;
 
   /// No description provided for @questions.
   ///
   /// In en, this message translates to:
-  /// **'Асуултууд'**
+  /// **'Асуулт'**
   String get questions;
 
   /// No description provided for @contentQuality.
@@ -1091,7 +1091,7 @@ abstract class AppLocalizations {
   /// No description provided for @purchaseWorth.
   ///
   /// In en, this message translates to:
-  /// **'Худалдан авалт үнэ цэнтэй эсэх'**
+  /// **'Худалдан авалт үнэ цэнтэй байсан эсэх'**
   String get purchaseWorth;
 
   /// No description provided for @supportQuality.
@@ -1103,19 +1103,19 @@ abstract class AppLocalizations {
   /// No description provided for @noReviews.
   ///
   /// In en, this message translates to:
-  /// **'Сэтгэгдэл алга!'**
+  /// **'Сэтгэгдэл алга'**
   String get noReviews;
 
   /// No description provided for @noReviewsDesc.
   ///
   /// In en, this message translates to:
-  /// **'Энэ курсэд одоогоор сэтгэгдэл байхгүй.'**
+  /// **'Энэ курсд одоогоор сэтгэгдэл байхгүй байна.'**
   String get noReviewsDesc;
 
   /// No description provided for @noCommentsCourseDesc.
   ///
   /// In en, this message translates to:
-  /// **'Энэ курсэд сэтгэгдэл байхгүй.'**
+  /// **'Курс дээр сэтгэгдэл үлдээгээгүй байна.'**
   String get noCommentsCourseDesc;
 
   /// No description provided for @price.
@@ -1127,13 +1127,13 @@ abstract class AppLocalizations {
   /// No description provided for @reviewTheCourse.
   ///
   /// In en, this message translates to:
-  /// **'Курсийн үнэлгээ өгөх'**
+  /// **'Курсэд үнэлгээ өгөх'**
   String get reviewTheCourse;
 
   /// No description provided for @reviewTheCourseDesc.
   ///
   /// In en, this message translates to:
-  /// **'Одоогоор одоор үнэлж, дараа нь сэтгэгдлээ бичээрэй'**
+  /// **'Эхлээд одоор үнэлж, дараа нь сэтгэгдлээ бичээрэй.'**
   String get reviewTheCourseDesc;
 
   /// No description provided for @writeReview.
@@ -1145,7 +1145,7 @@ abstract class AppLocalizations {
   /// No description provided for @writeReviewDesc.
   ///
   /// In en, this message translates to:
-  /// **'Миний бодлоор энэ багш үнэхээр шилдэг.'**
+  /// **'Энэ курсийн талаар өөрийн бодлоо бичээрэй.'**
   String get writeReviewDesc;
 
   /// No description provided for @submit.
@@ -1163,7 +1163,7 @@ abstract class AppLocalizations {
   /// No description provided for @goToLearningPage.
   ///
   /// In en, this message translates to:
-  /// **'Суралцах хуудсанд очих'**
+  /// **'Хичээлийн хуудсанд очих'**
   String get goToLearningPage;
 
   /// No description provided for @lessons.
@@ -1175,7 +1175,7 @@ abstract class AppLocalizations {
   /// No description provided for @buyWithPoints.
   ///
   /// In en, this message translates to:
-  /// **'Оноогоор худалдаж авах'**
+  /// **'Оноогоор авах'**
   String get buyWithPoints;
 
   /// No description provided for @youHave.
@@ -1205,7 +1205,7 @@ abstract class AppLocalizations {
   /// No description provided for @notices.
   ///
   /// In en, this message translates to:
-  /// **'Мэдэгдлүүд'**
+  /// **'Мэдэгдэл'**
   String get notices;
 
   /// No description provided for @postedBy.
@@ -1241,7 +1241,7 @@ abstract class AppLocalizations {
   /// No description provided for @answers.
   ///
   /// In en, this message translates to:
-  /// **'Хариултууд'**
+  /// **'Хариулт'**
   String get answers;
 
   /// No description provided for @activeUsers.
@@ -1253,7 +1253,7 @@ abstract class AppLocalizations {
   /// No description provided for @lastActivity.
   ///
   /// In en, this message translates to:
-  /// **'Сүүлчийн үйлдэл'**
+  /// **'Сүүлийн үйлдэл'**
   String get lastActivity;
 
   /// No description provided for @searchInCourseForum.
@@ -1277,7 +1277,7 @@ abstract class AppLocalizations {
   /// No description provided for @resultsFoundFor.
   ///
   /// In en, this message translates to:
-  /// **'Үр дүн:'**
+  /// **'Дараах хайлтын үр дүн:'**
   String get resultsFoundFor;
 
   /// No description provided for @newQuestion.
@@ -1325,19 +1325,19 @@ abstract class AppLocalizations {
   /// No description provided for @replyToCourseForum.
   ///
   /// In en, this message translates to:
-  /// **'Форумд хариулах'**
+  /// **'Форумд хариу бичих'**
   String get replyToCourseForum;
 
   /// No description provided for @noQuestion.
   ///
   /// In en, this message translates to:
-  /// **'Асуулт алга!'**
+  /// **'Асуулт алга'**
   String get noQuestion;
 
   /// No description provided for @noQuestionDesc.
   ///
   /// In en, this message translates to:
-  /// **'Шинэ асуулт асууж, бусадтай харилцаарай...'**
+  /// **'Эхний асуултаа асууж, бусадтай харилцаарай.'**
   String get noQuestionDesc;
 
   /// No description provided for @notification.
@@ -1379,7 +1379,7 @@ abstract class AppLocalizations {
   /// No description provided for @checkout.
   ///
   /// In en, this message translates to:
-  /// **'Төлбөр хийх'**
+  /// **'Төлбөр төлөх'**
   String get checkout;
 
   /// No description provided for @addCoupon.
@@ -1415,7 +1415,7 @@ abstract class AppLocalizations {
   /// No description provided for @successfulPaymentDesc.
   ///
   /// In en, this message translates to:
-  /// **'Төлбөр амжилттай хийгдлээ'**
+  /// **'Төлбөр амжилттай хийгдлээ.'**
   String get successfulPaymentDesc;
 
   /// No description provided for @paymentFailed.
@@ -1427,7 +1427,7 @@ abstract class AppLocalizations {
   /// No description provided for @paymentFailedDesc.
   ///
   /// In en, this message translates to:
-  /// **'Төлбөр амжилтгүй боллоо'**
+  /// **'Төлбөр амжилтгүй боллоо. Дахин оролдоно уу.'**
   String get paymentFailedDesc;
 
   /// No description provided for @remove.
@@ -1457,7 +1457,7 @@ abstract class AppLocalizations {
   /// No description provided for @courseMaterialDetails.
   ///
   /// In en, this message translates to:
-  /// **'Курсийн дэлгэрэнгүй'**
+  /// **'Курсийн материалын дэлгэрэнгүй'**
   String get courseMaterialDetails;
 
   /// No description provided for @volume.
@@ -1505,19 +1505,19 @@ abstract class AppLocalizations {
   /// No description provided for @thisSessionConductedOn.
   ///
   /// In en, this message translates to:
-  /// **'Энэ сесс явагдсан огноо'**
+  /// **'Энэ сесс дараах өдөр явагдсан:'**
   String get thisSessionConductedOn;
 
   /// No description provided for @accessDenied.
   ///
   /// In en, this message translates to:
-  /// **'Хандалт хориглогдсон!'**
+  /// **'Хандалт байхгүй'**
   String get accessDenied;
 
   /// No description provided for @accessDeniedDesc.
   ///
   /// In en, this message translates to:
-  /// **'Энэ хэсэгт хандахын тулд өмнөх хэсгийг давна уу.'**
+  /// **'Энэ хэсэгт хандахын тулд өмнөх хэсгийг эхлээд дуусгана уу.'**
   String get accessDeniedDesc;
 
   /// No description provided for @no.
@@ -1535,37 +1535,37 @@ abstract class AppLocalizations {
   /// No description provided for @noContentForShow.
   ///
   /// In en, this message translates to:
-  /// **'Үзүүлэх контент алга'**
+  /// **'Үзүүлэх зүйл алга'**
   String get noContentForShow;
 
   /// No description provided for @attachments.
   ///
   /// In en, this message translates to:
-  /// **'Хавсралтууд'**
+  /// **'Хавсралт'**
   String get attachments;
 
   /// No description provided for @noNotifications.
   ///
   /// In en, this message translates to:
-  /// **'Мэдэгдэл алга!'**
+  /// **'Мэдэгдэл алга'**
   String get noNotifications;
 
   /// No description provided for @noNotificationsDesc.
   ///
   /// In en, this message translates to:
-  /// **'Одоогоор мэдэгдэл байхгүй.'**
+  /// **'Одоогоор шинэ мэдэгдэл алга байна.'**
   String get noNotificationsDesc;
 
   /// No description provided for @cartIsEmpty.
   ///
   /// In en, this message translates to:
-  /// **'Сагс хоосон!'**
+  /// **'Сагс хоосон'**
   String get cartIsEmpty;
 
   /// No description provided for @cartIsEmptyDesc.
   ///
   /// In en, this message translates to:
-  /// **'Таалагдсан курсуудаа сагсанд нэмээрэй.'**
+  /// **'Таалагдсан курсуудаа сагсанд нэмээд, захиалга үүсгээрэй.'**
   String get cartIsEmptyDesc;
 
   /// No description provided for @back.
@@ -1577,19 +1577,19 @@ abstract class AppLocalizations {
   /// No description provided for @successAddToCartDesc.
   ///
   /// In en, this message translates to:
-  /// **'Захиалгаа гүйцээхийн тулд сагс руу орно уу'**
+  /// **'Захиалгаа гүйцээхийн тулд сагс руугаа орно уу.'**
   String get successAddToCartDesc;
 
   /// No description provided for @notAccessContent.
   ///
   /// In en, this message translates to:
-  /// **'Энэ контентод хандах эрхгүй'**
+  /// **'Энэ контентод хандах эрхгүй.'**
   String get notAccessContent;
 
   /// No description provided for @offlinePaymentDetails.
   ///
   /// In en, this message translates to:
-  /// **'Офлайн төлбөрийн дэлгэрэнгүй'**
+  /// **'Офлайн төлбөрийн мэдээлэл'**
   String get offlinePaymentDetails;
 
   /// No description provided for @selectBank.
@@ -1631,25 +1631,25 @@ abstract class AppLocalizations {
   /// No description provided for @successfulyRequest.
   ///
   /// In en, this message translates to:
-  /// **'Таны хүсэлт амжилттай бүртгэгдлээ.'**
+  /// **'Таны хүсэлт амжилттай илгээгдлээ.'**
   String get successfulyRequest;
 
   /// No description provided for @followers.
   ///
   /// In en, this message translates to:
-  /// **'Дагагчид'**
+  /// **'Дагагч'**
   String get followers;
 
   /// No description provided for @about.
   ///
   /// In en, this message translates to:
-  /// **'Тухай'**
+  /// **'Танилцуулга'**
   String get about;
 
   /// No description provided for @badges.
   ///
   /// In en, this message translates to:
-  /// **'Медалиуд'**
+  /// **'Медаль'**
   String get badges;
 
   /// No description provided for @meeting.
@@ -1661,13 +1661,13 @@ abstract class AppLocalizations {
   /// No description provided for @instructorIsUnavailable.
   ///
   /// In en, this message translates to:
-  /// **'Багш одоогоор боломжгүй'**
+  /// **'Багш одоогоор завгүй байна'**
   String get instructorIsUnavailable;
 
   /// No description provided for @experiences.
   ///
   /// In en, this message translates to:
-  /// **'Туршлага'**
+  /// **'Ажлын туршлага'**
   String get experiences;
 
   /// No description provided for @education.
@@ -1685,7 +1685,7 @@ abstract class AppLocalizations {
   /// No description provided for @license.
   ///
   /// In en, this message translates to:
-  /// **'Лицензээ идэвхжүүлнэ үү!'**
+  /// **'Лицензээ идэвхжүүлнэ үү'**
   String get license;
 
   /// No description provided for @unFollow.
@@ -1703,13 +1703,13 @@ abstract class AppLocalizations {
   /// No description provided for @reserveMeetingDesc.
   ///
   /// In en, this message translates to:
-  /// **'Энэхүү хэрэглэгчтэй шууд уулзалт товлоорой\nЦагийн төлбөр:'**
+  /// **'Энэхүү зөвлөхтэй шууд уулзалт товлож, дараах цагийн үнээр хичээллэнэ:'**
   String get reserveMeetingDesc;
 
   /// No description provided for @reserveMeeting.
   ///
   /// In en, this message translates to:
-  /// **'Уулзалт товлох'**
+  /// **'Уулзалт захиалах'**
   String get reserveMeeting;
 
   /// No description provided for @hourlyCharge.
@@ -1721,37 +1721,37 @@ abstract class AppLocalizations {
   /// No description provided for @noBiography.
   ///
   /// In en, this message translates to:
-  /// **'Танилцуулга алга!'**
+  /// **'Танилцуулга алга'**
   String get noBiography;
 
   /// No description provided for @noBiographyDesc.
   ///
   /// In en, this message translates to:
-  /// **'Багш өөрийн танилцуулгыг оруулаагүй байна.'**
+  /// **'Энэ багш өөрийн танилцуулгыг хараахан нэмээгүй байна.'**
   String get noBiographyDesc;
 
   /// No description provided for @noCourses.
   ///
   /// In en, this message translates to:
-  /// **'Курс алга!'**
+  /// **'Курс алга'**
   String get noCourses;
 
   /// No description provided for @noCoursesDesc.
   ///
   /// In en, this message translates to:
-  /// **'Энэ багш курс нэмээгүй байна.'**
+  /// **'Энэ багш одоогоор курс нэмээгүй байна.'**
   String get noCoursesDesc;
 
   /// No description provided for @noBadges.
   ///
   /// In en, this message translates to:
-  /// **'Медаль алга!'**
+  /// **'Медаль алга'**
   String get noBadges;
 
   /// No description provided for @noBadgesDesc.
   ///
   /// In en, this message translates to:
-  /// **'Энэ багшид медаль байхгүй.'**
+  /// **'Энэ багшид одоогоор медаль байхгүй байна.'**
   String get noBadgesDesc;
 
   /// No description provided for @noInstructorProfileDesc.
@@ -1769,7 +1769,7 @@ abstract class AppLocalizations {
   /// No description provided for @meetingTimesAreAvailable.
   ///
   /// In en, this message translates to:
-  /// **'Уулзалтын цагууд боломжтой.'**
+  /// **'Дараах өдрүүдэд уулзалтын цаг байна.'**
   String get meetingTimesAreAvailable;
 
   /// No description provided for @important.
@@ -1781,7 +1781,7 @@ abstract class AppLocalizations {
   /// No description provided for @timeSlotsDisplayedIn.
   ///
   /// In en, this message translates to:
-  /// **'Цагийн хэсгүүд дараах бүсээр:'**
+  /// **'Цагийн сонголт дараах бүсээр харагдана:'**
   String get timeSlotsDisplayedIn;
 
   /// No description provided for @timeZone.
@@ -1799,13 +1799,13 @@ abstract class AppLocalizations {
   /// No description provided for @finalizeReservation.
   ///
   /// In en, this message translates to:
-  /// **'Захиалга баталгаажуулах'**
+  /// **'Захиалгаа баталгаажуулах'**
   String get finalizeReservation;
 
   /// No description provided for @reserved.
   ///
   /// In en, this message translates to:
-  /// **'Захиалагдсан'**
+  /// **'Захиалсан'**
   String get reserved;
 
   /// No description provided for @selectedTime.
@@ -1835,7 +1835,7 @@ abstract class AppLocalizations {
   /// No description provided for @instructorConductsGroupMeetings.
   ///
   /// In en, this message translates to:
-  /// **'Багш бүлгийн уулзалт хийдэг.'**
+  /// **'Энэ багш бүлгийн уулзалт явуулдаг.'**
   String get instructorConductsGroupMeetings;
 
   /// No description provided for @conductionType.
@@ -1871,7 +1871,7 @@ abstract class AppLocalizations {
   /// No description provided for @group.
   ///
   /// In en, this message translates to:
-  /// **'Бүлэг'**
+  /// **'Бүлгийн'**
   String get group;
 
   /// No description provided for @participates.
@@ -1883,7 +1883,7 @@ abstract class AppLocalizations {
   /// No description provided for @groupMeetingDetails.
   ///
   /// In en, this message translates to:
-  /// **'Бүлгийн уулзалтын дэлгэрэнгүй'**
+  /// **'Бүлгийн уулзалтын мэдээлэл'**
   String get groupMeetingDetails;
 
   /// No description provided for @meetingHourlyRate.
@@ -1895,31 +1895,31 @@ abstract class AppLocalizations {
   /// No description provided for @groupLiveCapacity.
   ///
   /// In en, this message translates to:
-  /// **'Бүлгийн шууд багтаамж:'**
+  /// **'Бүлгийн шууд хичээлийн багтаамж:'**
   String get groupLiveCapacity;
 
   /// No description provided for @successfullyRegisteredMeeting.
   ///
   /// In en, this message translates to:
-  /// **'Уулзалт амжилттай бүртгэгдлээ'**
+  /// **'Уулзалт амжилттай захиалагдлаа.'**
   String get successfullyRegisteredMeeting;
 
   /// No description provided for @myAssignments.
   ///
   /// In en, this message translates to:
-  /// **'Миний даалгаврууд'**
+  /// **'Миний даалгавар'**
   String get myAssignments;
 
   /// No description provided for @studentAssignmetns.
   ///
   /// In en, this message translates to:
-  /// **'Оюутны даалгаварууд'**
+  /// **'Оюутны даалгавар'**
   String get studentAssignmetns;
 
   /// No description provided for @lastSubmission.
   ///
   /// In en, this message translates to:
-  /// **'Сүүлчийн илгээлт'**
+  /// **'Сүүлчийн илгээх хугацаа'**
   String get lastSubmission;
 
   /// No description provided for @firstSubmission.
@@ -1931,7 +1931,7 @@ abstract class AppLocalizations {
   /// No description provided for @deadline.
   ///
   /// In en, this message translates to:
-  /// **'Хугацаа'**
+  /// **'Хугацаа дуусах өдөр'**
   String get deadline;
 
   /// No description provided for @grade.
@@ -1949,7 +1949,7 @@ abstract class AppLocalizations {
   /// No description provided for @pending.
   ///
   /// In en, this message translates to:
-  /// **'Хүлээгдэж буй'**
+  /// **'Хянагдаж байна'**
   String get pending;
 
   /// No description provided for @passed.
@@ -1961,7 +1961,7 @@ abstract class AppLocalizations {
   /// No description provided for @notSubmitted.
   ///
   /// In en, this message translates to:
-  /// **'Илгээгдээгүй'**
+  /// **'Илгээхгүй үлдсэн'**
   String get notSubmitted;
 
   /// No description provided for @assignmentOverview.
@@ -2027,13 +2027,13 @@ abstract class AppLocalizations {
   /// No description provided for @youCanNotSendFilesAnymMore.
   ///
   /// In en, this message translates to:
-  /// **'Та одоо файл илгээх боломжгүй'**
+  /// **'Дахин файл илгээх боломжгүй.'**
   String get youCanNotSendFilesAnymMore;
 
   /// No description provided for @assignmentPassed.
   ///
   /// In en, this message translates to:
-  /// **'Даалгаврыг давсан'**
+  /// **'Даалгаврыг амжилттай давсан'**
   String get assignmentPassed;
 
   /// No description provided for @active.
@@ -2045,7 +2045,7 @@ abstract class AppLocalizations {
   /// No description provided for @totalSubmissions.
   ///
   /// In en, this message translates to:
-  /// **'Нийт илгээлт'**
+  /// **'Нийт илгээсэн'**
   String get totalSubmissions;
 
   /// No description provided for @averageGrade.
@@ -2069,13 +2069,13 @@ abstract class AppLocalizations {
   /// No description provided for @latestSubmissions.
   ///
   /// In en, this message translates to:
-  /// **'Сүүлийн илгээлтүүд'**
+  /// **'Сүүлийн илгээсэн'**
   String get latestSubmissions;
 
   /// No description provided for @reviewSubmissions.
   ///
   /// In en, this message translates to:
-  /// **'Илгээлт шалгах'**
+  /// **'Илгээлтийг шалгах'**
   String get reviewSubmissions;
 
   /// No description provided for @viewAssignment.
@@ -2093,13 +2093,13 @@ abstract class AppLocalizations {
   /// No description provided for @noSubmissions.
   ///
   /// In en, this message translates to:
-  /// **'Илгээлт алга!'**
+  /// **'Илгээлт алга'**
   String get noSubmissions;
 
   /// No description provided for @noSubmissionsDesc.
   ///
   /// In en, this message translates to:
-  /// **'Шалгах оюутны даалгавар алга.'**
+  /// **'Шалгах даалгавар оюутнаас ирээгүй байна.'**
   String get noSubmissionsDesc;
 
   /// No description provided for @rateAssignment.
@@ -2117,13 +2117,13 @@ abstract class AppLocalizations {
   /// No description provided for @assignmentPassedDesc.
   ///
   /// In en, this message translates to:
-  /// **'Та цаашид файл илгээх боломжгүй'**
+  /// **'Та даалгаврыг давсан тул цаашид файл илгээх шаардлагагүй.'**
   String get assignmentPassedDesc;
 
   /// No description provided for @summary.
   ///
   /// In en, this message translates to:
-  /// **'Тойм'**
+  /// **'Товч тойм'**
   String get summary;
 
   /// No description provided for @offlinePayments.
@@ -2141,7 +2141,7 @@ abstract class AppLocalizations {
   /// No description provided for @payout.
   ///
   /// In en, this message translates to:
-  /// **'Төлбөр шилжүүлэлт'**
+  /// **'Шилжүүлэлт'**
   String get payout;
 
   /// No description provided for @accountBalance.
@@ -2177,7 +2177,7 @@ abstract class AppLocalizations {
   /// No description provided for @payoutRequest.
   ///
   /// In en, this message translates to:
-  /// **'Шилжүүлэлт хүсэх'**
+  /// **'Гүйлгээ шилжүүлэх хүсэлт'**
   String get payoutRequest;
 
   /// No description provided for @financialSettings.
@@ -2189,7 +2189,7 @@ abstract class AppLocalizations {
   /// No description provided for @classSales.
   ///
   /// In en, this message translates to:
-  /// **'Курсын борлуулалт'**
+  /// **'Курсийн борлуулалт'**
   String get classSales;
 
   /// No description provided for @meetingSales.
@@ -2213,7 +2213,7 @@ abstract class AppLocalizations {
   /// No description provided for @waiting.
   ///
   /// In en, this message translates to:
-  /// **'Хүлээгдэж буй'**
+  /// **'Хүлээгдэж байна'**
   String get waiting;
 
   /// No description provided for @rejected.
@@ -2225,67 +2225,67 @@ abstract class AppLocalizations {
   /// No description provided for @noBalance.
   ///
   /// In en, this message translates to:
-  /// **'Үлдэгдэл алга!'**
+  /// **'Үлдэгдэл алга'**
   String get noBalance;
 
   /// No description provided for @noBalanceDesc.
   ///
   /// In en, this message translates to:
-  /// **'Таны дансанд үлдэгдэл байхгүй.'**
+  /// **'Таны дансанд одоогоор үлдэгдэл алга.'**
   String get noBalanceDesc;
 
   /// No description provided for @noBankAccounts.
   ///
   /// In en, this message translates to:
-  /// **'Банкны данс алга!'**
+  /// **'Банкны данс алга'**
   String get noBankAccounts;
 
   /// No description provided for @noBankAccountsDesc.
   ///
   /// In en, this message translates to:
-  /// **'Офлайн төлбөрт банкны данс бүртгэгдээгүй.'**
+  /// **'Офлайн төлбөрт зориулсан банкны данс бүртгэгдээгүй байна.'**
   String get noBankAccountsDesc;
 
   /// No description provided for @noOfflinePayments.
   ///
   /// In en, this message translates to:
-  /// **'Офлайн төлбөр алга!'**
+  /// **'Офлайн төлбөр алга'**
   String get noOfflinePayments;
 
   /// No description provided for @noOfflinePaymentsDesc.
   ///
   /// In en, this message translates to:
-  /// **'Танд офлайн төлбөрийн хүсэлт алга.'**
+  /// **'Танд офлайн төлбөрийн хүсэлт ирээгүй байна.'**
   String get noOfflinePaymentsDesc;
 
   /// No description provided for @noPayout.
   ///
   /// In en, this message translates to:
-  /// **'Шилжүүлэлт алга!'**
+  /// **'Шилжүүлэлт алга'**
   String get noPayout;
 
   /// No description provided for @noPayoutDesc.
   ///
   /// In en, this message translates to:
-  /// **'Төлбөр шилжүүлсэн түүх байхгүй.'**
+  /// **'Одоогоор гүйлгээ шилжүүлсэн түүх алга.'**
   String get noPayoutDesc;
 
   /// No description provided for @noSales.
   ///
   /// In en, this message translates to:
-  /// **'Борлуулалт алга!'**
+  /// **'Борлуулалт алга'**
   String get noSales;
 
   /// No description provided for @noSalesDesc.
   ///
   /// In en, this message translates to:
-  /// **'Та одоогоор юу ч зараагүй байна.'**
+  /// **'Та одоогоор ямар нэг хичээл эсвэл уулзалт зараагүй байна.'**
   String get noSalesDesc;
 
   /// No description provided for @readyToPayout.
   ///
   /// In en, this message translates to:
-  /// **'Шилжүүлэхэд бэлэн'**
+  /// **'Шилжүүлэх боломжтой'**
   String get readyToPayout;
 
   /// No description provided for @requestPayout.
@@ -2297,7 +2297,7 @@ abstract class AppLocalizations {
   /// No description provided for @requestPayoutDesc.
   ///
   /// In en, this message translates to:
-  /// **'Мөнгийг шилжүүлэхийн тулд дансны мэдээллээ баталгаажуулна уу'**
+  /// **'Мөнгийг шилжүүлэхийн тулд банкны дансны мэдээллээ баталгаажуулна уу.'**
   String get requestPayoutDesc;
 
   /// No description provided for @cardID.
@@ -2363,7 +2363,7 @@ abstract class AppLocalizations {
   /// No description provided for @sessions.
   ///
   /// In en, this message translates to:
-  /// **'Сессүүд'**
+  /// **'Сесс'**
   String get sessions;
 
   /// No description provided for @dateCreated.
@@ -2387,7 +2387,7 @@ abstract class AppLocalizations {
   /// No description provided for @joinMeeting.
   ///
   /// In en, this message translates to:
-  /// **'Уулзалтанд нэгдэх'**
+  /// **'Уулзалтад нэгдэх'**
   String get joinMeeting;
 
   /// No description provided for @finishmeeting.
@@ -2399,7 +2399,7 @@ abstract class AppLocalizations {
   /// No description provided for @meetingOptions.
   ///
   /// In en, this message translates to:
-  /// **'Уулзалтын сонголтууд'**
+  /// **'Уулзалтын сонголт'**
   String get meetingOptions;
 
   /// No description provided for @canceled.
@@ -2441,19 +2441,19 @@ abstract class AppLocalizations {
   /// No description provided for @noMeetings.
   ///
   /// In en, this message translates to:
-  /// **'Уулзалт алга!'**
+  /// **'Уулзалт алга'**
   String get noMeetings;
 
   /// No description provided for @noMeetingsDesc.
   ///
   /// In en, this message translates to:
-  /// **'Дуртай зөвлөхтэйгөө уулзалт захиалаарай.'**
+  /// **'Таалагдсан багштайгаа уулзалт захиалаад хичээллэж эхлээрэй.'**
   String get noMeetingsDesc;
 
   /// No description provided for @noCourseClassesDesc.
   ///
   /// In en, this message translates to:
-  /// **'Курсэд бүртгүүлээд суралцаж эхлээрэй.'**
+  /// **'Курсэд бүртгүүлээд хичээлээ эхлээрэй.'**
   String get noCourseClassesDesc;
 
   /// No description provided for @consultant.
@@ -2483,7 +2483,7 @@ abstract class AppLocalizations {
   /// No description provided for @meetingJoinDetails.
   ///
   /// In en, this message translates to:
-  /// **'Нэгдэх дэлгэрэнгүй'**
+  /// **'Нэгдэх мэдээлэл'**
   String get meetingJoinDetails;
 
   /// No description provided for @myComments.
@@ -2495,7 +2495,7 @@ abstract class AppLocalizations {
   /// No description provided for @myClassComments.
   ///
   /// In en, this message translates to:
-  /// **'Миний курсийн сэтгэгдлүүд'**
+  /// **'Курсийн сэтгэгдлүүд'**
   String get myClassComments;
 
   /// No description provided for @commentDetails.
@@ -2507,7 +2507,7 @@ abstract class AppLocalizations {
   /// No description provided for @thisCommentIsFor.
   ///
   /// In en, this message translates to:
-  /// **'Энэ сэтгэгдэл дараах зүйлд хамаатай'**
+  /// **'Энэ сэтгэгдэл дараах зүйлд хамаарна:'**
   String get thisCommentIsFor;
 
   /// No description provided for @delete.
@@ -2525,7 +2525,7 @@ abstract class AppLocalizations {
   /// No description provided for @reportComment.
   ///
   /// In en, this message translates to:
-  /// **'Сэтгэгдэл мэдэгдэх'**
+  /// **'Сэтгэгдэл мэдээлэх'**
   String get reportComment;
 
   /// No description provided for @open.
@@ -2537,7 +2537,7 @@ abstract class AppLocalizations {
   /// No description provided for @thereIsNoInformationToDisplay.
   ///
   /// In en, this message translates to:
-  /// **'Уучлаарай, үзүүлэх мэдээлэл алга.'**
+  /// **'Одоогоор үзүүлэх мэдээлэл алга.'**
   String get thereIsNoInformationToDisplay;
 
   /// No description provided for @settings.
@@ -2585,7 +2585,7 @@ abstract class AppLocalizations {
   /// No description provided for @joinNewsletter.
   ///
   /// In en, this message translates to:
-  /// **'Мэдээллийн товхимолд нэгдэх'**
+  /// **'Мэдээллийн товхимолд бүртгүүлэх'**
   String get joinNewsletter;
 
   /// No description provided for @accountType.
@@ -2609,7 +2609,7 @@ abstract class AppLocalizations {
   /// No description provided for @certificatesDocuments.
   ///
   /// In en, this message translates to:
-  /// **'Сертификат ба баримтууд'**
+  /// **'Сертификат, баримтууд'**
   String get certificatesDocuments;
 
   /// No description provided for @approved.
@@ -2633,13 +2633,13 @@ abstract class AppLocalizations {
   /// No description provided for @financialApproval.
   ///
   /// In en, this message translates to:
-  /// **'Санхүү баталгаажсан'**
+  /// **'Санхүүгийн баталгаажуулалт'**
   String get financialApproval;
 
   /// No description provided for @financialApprovalDesc.
   ///
   /// In en, this message translates to:
-  /// **'Таны санхүүгийн мэдээлэл баталгаажаагүй байна!'**
+  /// **'Таны санхүүгийн мэдээлэл хараахан баталгаажаагүй байна.'**
   String get financialApprovalDesc;
 
   /// No description provided for @localization.
@@ -2657,7 +2657,7 @@ abstract class AppLocalizations {
   /// No description provided for @province.
   ///
   /// In en, this message translates to:
-  /// **'Аймаг/Муж'**
+  /// **'Аймаг / Муж'**
   String get province;
 
   /// No description provided for @city.
@@ -2675,13 +2675,13 @@ abstract class AppLocalizations {
   /// No description provided for @passwordUpdateDesc.
   ///
   /// In en, this message translates to:
-  /// **'Нууц үг амжилттай шинэчлэгдлээ'**
+  /// **'Нууц үг амжилттай шинэчлэгдлээ.'**
   String get passwordUpdateDesc;
 
   /// No description provided for @sendDataDesc.
   ///
   /// In en, this message translates to:
-  /// **'Өгөгдөл илгээж байна... Түр хүлээнэ үү'**
+  /// **'Өгөгдөл илгээж байна. Түр хүлээнэ үү...'**
   String get sendDataDesc;
 
   /// No description provided for @myResults.
@@ -2735,31 +2735,31 @@ abstract class AppLocalizations {
   /// No description provided for @backToQuizzes.
   ///
   /// In en, this message translates to:
-  /// **'Шалгалтууд руу буцах'**
+  /// **'Шалгалтын жагсаалт руу буцах'**
   String get backToQuizzes;
 
   /// No description provided for @noResults.
   ///
   /// In en, this message translates to:
-  /// **'Үр дүн алга!'**
+  /// **'Үр дүн алга'**
   String get noResults;
 
   /// No description provided for @youHaveNoQuizResults.
   ///
   /// In en, this message translates to:
-  /// **'Танд шалгалтын үр дүн алга.'**
+  /// **'Танд шалгалтын үр дүн хараахан алга.'**
   String get youHaveNoQuizResults;
 
   /// No description provided for @noStudentResults.
   ///
   /// In en, this message translates to:
-  /// **'Оюутны үр дүн алга!'**
+  /// **'Оюутны үр дүн алга'**
   String get noStudentResults;
 
   /// No description provided for @noStudentResultsDesc.
   ///
   /// In en, this message translates to:
-  /// **'Таны оюутнуудад одоогоор үр дүн байхгүй.'**
+  /// **'Таны оюутнуудад хараахан үр дүн гаргаагүй байна.'**
   String get noStudentResultsDesc;
 
   /// No description provided for @youPassedTheQuiz.
@@ -2771,7 +2771,7 @@ abstract class AppLocalizations {
   /// No description provided for @youPassedTheQuizDesc.
   ///
   /// In en, this message translates to:
-  /// **'Баяр хүргэе! Та шалгалтыг амжилттай давлаа!'**
+  /// **'Баяр хүргэе! Та шалгалтыг амжилттай давлаа.'**
   String get youPassedTheQuizDesc;
 
   /// No description provided for @waitForFinalResult.
@@ -2783,7 +2783,7 @@ abstract class AppLocalizations {
   /// No description provided for @waitForFinalResultDesc.
   ///
   /// In en, this message translates to:
-  /// **'Тайлбарлах асуултуудтай тул багшийн үнэлгээг хүлээнэ үү.'**
+  /// **'Тайлбар бичих асуултуудтай тул багшийн үнэлгээг хүлээх шаардлагатай.'**
   String get waitForFinalResultDesc;
 
   /// No description provided for @youFailedTheQuiz.
@@ -2795,7 +2795,7 @@ abstract class AppLocalizations {
   /// No description provided for @youFailedTheQuizDesc.
   ///
   /// In en, this message translates to:
-  /// **'Харамсалтай! Та унасан байна.\nДахин оролдож болно.'**
+  /// **'Харамсалтай байна. Дахин оролдоод үзээрэй.'**
   String get youFailedTheQuizDesc;
 
   /// No description provided for @submitDate.
@@ -2807,13 +2807,13 @@ abstract class AppLocalizations {
   /// No description provided for @reviewQuiz.
   ///
   /// In en, this message translates to:
-  /// **'Шалгалт шалгах'**
+  /// **'Шалгалтыг шалгах'**
   String get reviewQuiz;
 
   /// No description provided for @reviewAnswers.
   ///
   /// In en, this message translates to:
-  /// **'Хариултуудыг шалгах'**
+  /// **'Хариултыг шалгах'**
   String get reviewAnswers;
 
   /// No description provided for @retry.
@@ -2903,7 +2903,7 @@ abstract class AppLocalizations {
   /// No description provided for @questionsForReview.
   ///
   /// In en, this message translates to:
-  /// **'ашигтай хяналтын асуулттай.'**
+  /// **'хяналтын асуултуудтай.'**
   String get questionsForReview;
 
   /// No description provided for @typeYourAnswerHere.
@@ -2927,25 +2927,25 @@ abstract class AppLocalizations {
   /// No description provided for @reviewTheResultDesc.
   ///
   /// In en, this message translates to:
-  /// **'Тайлбарлах асуултуудтай тул та шалгана уу.'**
+  /// **'Тайлбар бичих асуултуудтай тул та өөрөө шалгана уу.'**
   String get reviewTheResultDesc;
 
   /// No description provided for @quizCerts.
   ///
   /// In en, this message translates to:
-  /// **'Шалгалтын сертификатууд'**
+  /// **'Шалгалтын сертификат'**
   String get quizCerts;
 
   /// No description provided for @completionCerts.
   ///
   /// In en, this message translates to:
-  /// **'Дуусгасан сертификатууд'**
+  /// **'Дуусгасан сертификат'**
   String get completionCerts;
 
   /// No description provided for @classCerts.
   ///
   /// In en, this message translates to:
-  /// **'Курсийн сертификатууд'**
+  /// **'Курсийн сертификат'**
   String get classCerts;
 
   /// No description provided for @certificateDetails.
@@ -2963,7 +2963,7 @@ abstract class AppLocalizations {
   /// No description provided for @shareCertificateDesc.
   ///
   /// In en, this message translates to:
-  /// **'Сертификатаа сошиал сүлжээнд хуваалцаж бусдыг урамшуул.'**
+  /// **'Сертификатаа сошиалд байршуулж, бусдыг урамшуул.'**
   String get shareCertificateDesc;
 
   /// No description provided for @takenDate.
@@ -2999,7 +2999,7 @@ abstract class AppLocalizations {
   /// No description provided for @certificateOverviewDesc.
   ///
   /// In en, this message translates to:
-  /// **'Доорх мэдээллээр суралцах чанарыг үнэлнэ үү'**
+  /// **'Доорх мэдээллээр сургалтын чанарыг үнэлээрэй.'**
   String get certificateOverviewDesc;
 
   /// No description provided for @certificateStudents.
@@ -3011,7 +3011,7 @@ abstract class AppLocalizations {
   /// No description provided for @youHaveNotAccess.
   ///
   /// In en, this message translates to:
-  /// **'Энэ хэсэгт хандах эрхгүй байна'**
+  /// **'Энэ хэсэгт хандах эрхгүй байна.'**
   String get youHaveNotAccess;
 
   /// No description provided for @achievements.
@@ -3023,13 +3023,13 @@ abstract class AppLocalizations {
   /// No description provided for @noCertificates.
   ///
   /// In en, this message translates to:
-  /// **'Сертификат алга!'**
+  /// **'Сертификат алга'**
   String get noCertificates;
 
   /// No description provided for @noCertificatesDesc.
   ///
   /// In en, this message translates to:
-  /// **'Танд одоогоор сертификат байхгүй.'**
+  /// **'Танд одоогоор сертификат байхгүй байна.'**
   String get noCertificatesDesc;
 
   /// No description provided for @activePlan.
@@ -3059,7 +3059,7 @@ abstract class AppLocalizations {
   /// No description provided for @daysOfSubscription.
   ///
   /// In en, this message translates to:
-  /// **'Гишүүнчлэлийн өдрүүд'**
+  /// **'Гишүүнчлэлийн хугацаа (өдөр)'**
   String get daysOfSubscription;
 
   /// No description provided for @classesSubscription.
@@ -3071,25 +3071,25 @@ abstract class AppLocalizations {
   /// No description provided for @noActiveSubscriptionPlan.
   ///
   /// In en, this message translates to:
-  /// **'Идэвхтэй гишүүнчлэл алга'**
+  /// **'Идэвхтэй гишүүнчлэлгүй байна.'**
   String get noActiveSubscriptionPlan;
 
   /// No description provided for @noFavorites.
   ///
   /// In en, this message translates to:
-  /// **'Таалагдсан алга!'**
+  /// **'Таалагдсан алга'**
   String get noFavorites;
 
   /// No description provided for @noFavoritesDesc.
   ///
   /// In en, this message translates to:
-  /// **'Таалагдсан курсуудаа жагсаалтад нэмээрэй.'**
+  /// **'Таалагдсан курс, багшаа эндээс хадгалаарай.'**
   String get noFavoritesDesc;
 
   /// No description provided for @newEvents.
   ///
   /// In en, this message translates to:
-  /// **'шинэ үйл явдал'**
+  /// **'шинэ үйл явдал байна'**
   String get newEvents;
 
   /// No description provided for @pendingMessages.
@@ -3119,7 +3119,7 @@ abstract class AppLocalizations {
   /// No description provided for @purchasedCourses.
   ///
   /// In en, this message translates to:
-  /// **'Худалдан авсан\nкурсууд'**
+  /// **'Худалдан авсан\nкурс'**
   String get purchasedCourses;
 
   /// No description provided for @learningStatistics.
@@ -3137,7 +3137,7 @@ abstract class AppLocalizations {
   /// No description provided for @tickets.
   ///
   /// In en, this message translates to:
-  /// **'Тасалбарууд'**
+  /// **'Тасалбар / Тикет'**
   String get tickets;
 
   /// No description provided for @classesSupport.
@@ -3173,13 +3173,13 @@ abstract class AppLocalizations {
   /// No description provided for @replyToSupport.
   ///
   /// In en, this message translates to:
-  /// **'Дэмжлэгт хариулах'**
+  /// **'Дэмжлэгт хариу бичих'**
   String get replyToSupport;
 
   /// No description provided for @replyToConversation.
   ///
   /// In en, this message translates to:
-  /// **'Ярилцлагад хариулах'**
+  /// **'Ярилцлагад хариу бичих'**
   String get replyToConversation;
 
   /// No description provided for @support_messages.
@@ -3197,13 +3197,13 @@ abstract class AppLocalizations {
   /// No description provided for @noTickets.
   ///
   /// In en, this message translates to:
-  /// **'Тасалбар алга!'**
+  /// **'Тасалбар алга'**
   String get noTickets;
 
   /// No description provided for @noTicketsDesc.
   ///
   /// In en, this message translates to:
-  /// **'Тусламж хэрэгтэй юу? Шинэ хүсэлт үүсгэнэ үү.'**
+  /// **'Асуудал гарсан уу? Шинэ тусламжийн хүсэлт үүсгээрэй.'**
   String get noTicketsDesc;
 
   /// No description provided for @message.
@@ -3215,13 +3215,13 @@ abstract class AppLocalizations {
   /// No description provided for @removeFromFavorites.
   ///
   /// In en, this message translates to:
-  /// **'Таалагдсанаас устгах'**
+  /// **'Таалагдсанаас хасах'**
   String get removeFromFavorites;
 
   /// No description provided for @thisIsACourseSupportMessage.
   ///
   /// In en, this message translates to:
-  /// **'Энэ нь курсийн дэмжлэгийн мессеж юм'**
+  /// **'Энэ нь курсийн дэмжлэгийн мессеж юм.'**
   String get thisIsACourseSupportMessage;
 
   /// No description provided for @currentPassword.
@@ -3239,7 +3239,7 @@ abstract class AppLocalizations {
   /// No description provided for @passwordAndRetypePassNotMatch.
   ///
   /// In en, this message translates to:
-  /// **'Шинэ нууц үгүүд таарахгүй байна'**
+  /// **'Шинэ нууц үг хоорондоо таарахгүй байна.'**
   String get passwordAndRetypePassNotMatch;
 
   /// No description provided for @nextBadges.
@@ -3275,25 +3275,25 @@ abstract class AppLocalizations {
   /// No description provided for @loginDesc.
   ///
   /// In en, this message translates to:
-  /// **'Энэ хуудсын мэдээллийг харахын тулд нэвтэрнэ үү'**
+  /// **'Энэ хэсгийн мэдээллийг харахын тулд нэвтэрнэ үү.'**
   String get loginDesc;
 
   /// No description provided for @freeCourses.
   ///
   /// In en, this message translates to:
-  /// **'Үнэгүй курсууд!'**
+  /// **'Үнэгүй курсууд'**
   String get freeCourses;
 
   /// No description provided for @bySpendingPoints.
   ///
   /// In en, this message translates to:
-  /// **'Оноо зарцуулж'**
+  /// **'Оноо зарцуулан'**
   String get bySpendingPoints;
 
   /// No description provided for @saaSPackages.
   ///
   /// In en, this message translates to:
-  /// **'SaaS багцууд'**
+  /// **'SaaS багц'**
   String get saaSPackages;
 
   /// No description provided for @activationDate.
@@ -3311,7 +3311,7 @@ abstract class AppLocalizations {
   /// No description provided for @newCourses.
   ///
   /// In en, this message translates to:
-  /// **'Шинэ\nкурсууд'**
+  /// **'Шинэ\nкурс'**
   String get newCourses;
 
   /// No description provided for @liveClassCapacity.
@@ -3323,19 +3323,19 @@ abstract class AppLocalizations {
   /// No description provided for @meetingTimeSlots.
   ///
   /// In en, this message translates to:
-  /// **'Уулзалтын\nцагууд'**
+  /// **'Уулзалтын\nцагийн слот'**
   String get meetingTimeSlots;
 
   /// No description provided for @newStudents.
   ///
   /// In en, this message translates to:
-  /// **'Шинэ\nоюутнууд'**
+  /// **'Шинэ\nсуралцагч'**
   String get newStudents;
 
   /// No description provided for @newInstructors.
   ///
   /// In en, this message translates to:
-  /// **'Шинэ\nбагш нар'**
+  /// **'Шинэ\nбагш'**
   String get newInstructors;
 
   /// No description provided for @getCashback.
@@ -3359,7 +3359,7 @@ abstract class AppLocalizations {
   /// No description provided for @skip.
   ///
   /// In en, this message translates to:
-  /// **'алгасах'**
+  /// **'Алгасах'**
   String get skip;
 
   /// No description provided for @purchaseThisCourseAndGet.
@@ -3407,7 +3407,7 @@ abstract class AppLocalizations {
   /// No description provided for @customSession.
   ///
   /// In en, this message translates to:
-  /// **'Тусгай сесс'**
+  /// **'Гаднын (custom) сесс'**
   String get customSession;
 
   /// No description provided for @newInappLiveSession.
@@ -3425,13 +3425,13 @@ abstract class AppLocalizations {
   /// No description provided for @inappLiveSessionQuestion.
   ///
   /// In en, this message translates to:
-  /// **'Энэ уулзалтад апп доторх шууд сесс үүсгэх үү?'**
+  /// **'Энэ уулзалтад апп дотор шууд сесс үүсгэх үү?'**
   String get inappLiveSessionQuestion;
 
   /// No description provided for @theMeetingDateIs.
   ///
   /// In en, this message translates to:
-  /// **'Уулзалтын огноо: '**
+  /// **'Уулзалт болох огноо: '**
   String get theMeetingDateIs;
 
   /// No description provided for @liveSessionCreated.
@@ -3443,7 +3443,7 @@ abstract class AppLocalizations {
   /// No description provided for @youCanJoinItNow.
   ///
   /// In en, this message translates to:
-  /// **'Та одоо нэгдэж болно'**
+  /// **'Та одоо нэгдэж болно.'**
   String get youCanJoinItNow;
 
   /// No description provided for @create.
@@ -3455,13 +3455,13 @@ abstract class AppLocalizations {
   /// No description provided for @latestBundles.
   ///
   /// In en, this message translates to:
-  /// **'Хамгийн сүүлийн багцууд'**
+  /// **'Шинэ багцууд'**
   String get latestBundles;
 
   /// No description provided for @chapters.
   ///
   /// In en, this message translates to:
-  /// **'Бүлгүүд'**
+  /// **'Бүлэг'**
   String get chapters;
 
   /// No description provided for @newMessage.
@@ -3485,25 +3485,25 @@ abstract class AppLocalizations {
   /// No description provided for @privateContent.
   ///
   /// In en, this message translates to:
-  /// **'Хувийн контент!'**
+  /// **'Хувийн контент'**
   String get privateContent;
 
   /// No description provided for @privateContentDesc.
   ///
   /// In en, this message translates to:
-  /// **'Курсын контентод хандахын тулд нэвтэрнэ үү.'**
+  /// **'Энэ контентод хандахын тулд нэвтэрнэ үү.'**
   String get privateContentDesc;
 
   /// No description provided for @pendingVerification.
   ///
   /// In en, this message translates to:
-  /// **'Шалгагдаж байна!'**
+  /// **'Шалгагдаж байна'**
   String get pendingVerification;
 
   /// No description provided for @pendingVerificationDesc.
   ///
   /// In en, this message translates to:
-  /// **'Таны бүртгэл шалгагдаж байна. Зөвшөөрөгдсөний дараа хандана.'**
+  /// **'Таны бүртгэлийг админ шалгаж байна. Зөвшөөрөгдсөний дараа бүрэн хандах боломжтой.'**
   String get pendingVerificationDesc;
 
   /// No description provided for @private.
@@ -3533,7 +3533,7 @@ abstract class AppLocalizations {
   /// No description provided for @selectCountryDesc.
   ///
   /// In en, this message translates to:
-  /// **'Улс эсвэл кодоор хайна уу'**
+  /// **'Улс эсвэл кодоор хайна уу.'**
   String get selectCountryDesc;
 
   /// No description provided for @exit.
@@ -3545,7 +3545,7 @@ abstract class AppLocalizations {
   /// No description provided for @exitDesc.
   ///
   /// In en, this message translates to:
-  /// **'Та гарахдаа итгэлтэй байна уу?'**
+  /// **'Апп-ыг хаахдаа итгэлтэй байна уу?'**
   String get exitDesc;
 
   /// No description provided for @loginHistory.
@@ -3557,7 +3557,7 @@ abstract class AppLocalizations {
   /// No description provided for @loginHistoryDesc.
   ///
   /// In en, this message translates to:
-  /// **'Бүртгэлийн нэвтрэлтийн түүхийг гүйлгэн харна уу'**
+  /// **'Таны бүртгэлд хэдийд, ямар төхөөрөмжөөс нэвтэрснийг эндээс харна.'**
   String get loginHistoryDesc;
 
   /// No description provided for @os.
@@ -3623,13 +3623,13 @@ abstract class AppLocalizations {
   /// No description provided for @networkProblem.
   ///
   /// In en, this message translates to:
-  /// **'Сүлжээний асуудал...'**
+  /// **'Сүлжээний алдаа'**
   String get networkProblem;
 
   /// No description provided for @networkProblemDesc.
   ///
   /// In en, this message translates to:
-  /// **'Интернэт холболтоо шалгаад дахин оролдоно уу...'**
+  /// **'Интернэт холболтоо шалгаад дахин оролдоно уу.'**
   String get networkProblemDesc;
 
   /// No description provided for @myCourses.
@@ -3641,7 +3641,7 @@ abstract class AppLocalizations {
   /// No description provided for @studentPassedTheQuiz.
   ///
   /// In en, this message translates to:
-  /// **'Оюутан шалгалтыг давлаа'**
+  /// **'Оюутан шалгалтыг давсан'**
   String get studentPassedTheQuiz;
 
   /// No description provided for @enterACouponCode.
@@ -3683,13 +3683,13 @@ abstract class AppLocalizations {
   /// No description provided for @deleteAccountDesc.
   ///
   /// In en, this message translates to:
-  /// **'Админы зөвшөөрлийн дараа таны бүртгэл платформоос устгагдана. Энэ үйлдлийг буцаах боломжгүй.'**
+  /// **'Админ баталгаажуулсны дараа таны бүртгэл платформоос бүр мөсөн устгагдана. Энэ үйлдлийг буцаах боломжгүй.'**
   String get deleteAccountDesc;
 
   /// No description provided for @serverExceptionError.
   ///
   /// In en, this message translates to:
-  /// **'Серверээс мэдээлэл авахад алдаа гарлаа.'**
+  /// **'Серверээс мэдээлэл авах үед алдаа гарлаа.'**
   String get serverExceptionError;
 }
 

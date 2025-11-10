@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_image_compress/flutter_image_compress.dart';
-import 'package:image_picker/image_picker.dart';
+// import 'package:image_picker/image_picker.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:persian_number_utility/persian_number_utility.dart';
 import 'package:webinar/app/models/login_history_model.dart';
@@ -184,14 +184,14 @@ class _SettingPageState extends State<SettingPage> with TickerProviderStateMixin
 
                               GestureDetector(
                                 onTap: () async {
-                                  final ImagePicker picker = ImagePicker();
-                                  final XFile? image = await picker.pickImage(source: ImageSource.gallery);
+                                  // final ImagePicker picker = ImagePicker();
+                                  // final XFile? image = await picker.pickImage(source: ImageSource.gallery);
 
-                                  if(image != null){
-                                    localImage = await compressImage(image);
+                                  // if(image != null){
+                                  //   localImage = await compressImage(image);
 
-                                    setState(() {});
-                                  }
+                                  //   setState(() {});
+                                  // }comment
                                 },
                                 child: Container(
                                   width: 95,
@@ -336,39 +336,39 @@ class _SettingPageState extends State<SettingPage> with TickerProviderStateMixin
                     ),
               
               
-                    SettingWidget.financialPage(
-                      accountTypeController, accountTypeNode, ibanController, ibanNode,
-                      accountIdController, accountIdNode, addressController, addressNode, 
-                      (){
-                        setState(() {});
-                      },
-                      indentityScanImage,
-                      certificateImage,
-                      locator<UserProvider>().profile?.identityScan != null,
-                      locator<UserProvider>().profile?.certificate != null,
-                      (ImageSource source) async { //selectIndentityImage 
+                    // SettingWidget.financialPage(
+                    //   accountTypeController, accountTypeNode, ibanController, ibanNode,
+                    //   accountIdController, accountIdNode, addressController, addressNode, 
+                    //   (){
+                    //     setState(() {});
+                    //   },
+                    //   indentityScanImage,
+                    //   certificateImage,
+                    //   locator<UserProvider>().profile?.identityScan != null,
+                    //   locator<UserProvider>().profile?.certificate != null
+                    //   // (ImageSource source) async { //selectIndentityImage 
                         
-                        final ImagePicker picker = ImagePicker();
-                        final XFile? image = await picker.pickImage(source: source);
+                    //   //   final ImagePicker picker = ImagePicker();
+                    //   //   final XFile? image = await picker.pickImage(source: source);
               
-                        if(image != null){
-                          indentityScanImage = await compressImage(image);
+                    //   //   if(image != null){
+                    //   //     indentityScanImage = await compressImage(image);
               
-                          setState(() {});
-                        }
+                    //   //     setState(() {});
+                    //   //   }
               
-                      },
-                      () async {
-                        final ImagePicker picker = ImagePicker();
-                        final XFile? image = await picker.pickImage(source: ImageSource.gallery);
+                    //   // },
+                    //   // () async {
+                    //   //   final ImagePicker picker = ImagePicker();
+                    //   //   final XFile? image = await picker.pickImage(source: ImageSource.gallery);
               
-                        if(image != null){
-                          certificateImage = await compressImage(image);
+                    //   //   if(image != null){
+                    //   //     certificateImage = await compressImage(image);
               
-                          setState(() {});
-                        }
-                      }
-                    ),
+                    //   //     setState(() {});
+                    //   //   }
+                    //   // }
+                    // ),
                     
               
                     SettingWidget.localizationPage(

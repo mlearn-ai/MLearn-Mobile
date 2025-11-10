@@ -5,7 +5,7 @@ import 'package:flutter_image_compress/flutter_image_compress.dart';
 
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter_widget_from_html/flutter_widget_from_html.dart';
-import 'package:image_picker/image_picker.dart' as imagePicker;
+// import 'package:image_picker/image_picker.dart' as imagePicker;
 import 'package:path_provider/path_provider.dart';
 import 'package:webinar/app/models/content_model.dart';
 import 'package:webinar/app/models/forum_answer_model.dart';
@@ -825,24 +825,24 @@ class LearningWidget{
                         button(
                           onTap: () async {
 
-                            final imagePicker.ImagePicker picker = imagePicker.ImagePicker();
-                            final imagePicker.XFile? image = await picker.pickImage(source: imagePicker.ImageSource.gallery);
+                            // final imagePicker.ImagePicker picker = imagePicker.ImagePicker();
+                            // final imagePicker.XFile? image = await picker.pickImage(source: imagePicker.ImageSource.gallery);
 
 
-                            if(image != null){
-                              Directory appDocDir = await getApplicationDocumentsDirectory();
-                              String address = '${appDocDir.path}/${DateTime.now().millisecond}.jpg';
+                            // if(image != null){
+                            //   Directory appDocDir = await getApplicationDocumentsDirectory();
+                            //   String address = '${appDocDir.path}/${DateTime.now().millisecond}.jpg';
 
-                              var result = await FlutterImageCompress.compressAndGetFile(
-                                File(image.path).path, 
-                                address,
-                                quality: 75,
-                                minWidth: 700,
-                              );
+                            //   var result = await FlutterImageCompress.compressAndGetFile(
+                            //     File(image.path).path, 
+                            //     address,
+                            //     quality: 75,
+                            //     minWidth: 700,
+                            //   );
 
-                              attachment = File(result!.path);
+                            //   attachment = File(result!.path);
                              
-                            }
+                            // }
 
                             
                           }, 

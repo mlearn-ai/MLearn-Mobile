@@ -26,13 +26,13 @@ if (keystorePropertiesFile.exists()) {
 
 android {
     namespace = "com.webinar.webinar"
-    compileSdk = 35
+    compileSdk = 36
     ndkVersion = "29.0.13113456 rc1"
 
     defaultConfig {
         applicationId = "com.webinar.webinar"
-        minSdk = 21
-        targetSdk = 35
+        minSdk = flutter.minSdkVersion
+        targetSdk = 36
         versionCode = flutterVersionCode
         versionName = flutterVersionName
     }
