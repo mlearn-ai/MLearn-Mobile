@@ -9,13 +9,13 @@ import '../pages/main_page/providers_page/providers_page.dart';
 
 class PageProvider extends ChangeNotifier{
 
-  PageNames page = PageNames.home;
+  PageNames page = PageNames.providers;
 
   Map<PageNames,Widget> pages = {
-    PageNames.home : const HomePage(),
-    PageNames.categories : const CategoriesPage(),
+   // PageNames.home : const HomePage(),comment
+   // PageNames.categories : const CategoriesPage(),comment
     PageNames.providers : const ProvidersPage(),
-    PageNames.blog : const BlogsPage(),
+    // PageNames.blog : const BlogsPage(),comment
     PageNames.myClasses : const ClassesPage(),
   };
 

@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:webinar/app/models/meeting_times_model.dart';
 import 'package:webinar/app/models/profile_model.dart';
+import 'package:webinar/app/pages/main_page/home_page/cart_page/cart_page.dart';
 import 'package:webinar/app/services/guest_service/providers_service.dart';
 import 'package:webinar/app/widgets/main_widget/provider_widget/user_profile_widget.dart';
 import 'package:webinar/common/common.dart';
@@ -432,7 +433,8 @@ class _FinalizeDatePageState extends State<FinalizeDatePage> {
                     );
               
                     if(res){
-                      backRoute();
+                      nextRoute(CartPage.pageName);
+                     // backRoute();
                     }
                     
                     setState(() {

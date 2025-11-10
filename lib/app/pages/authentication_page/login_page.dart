@@ -378,7 +378,7 @@ class _LoginPageState extends State<LoginPage> {
                                   }catch(_){}
                                 }
 
-                                locator<PageProvider>().setPage(PageNames.home);
+                                locator<PageProvider>().setPage(PageNames.providers);
                                 nextRoute(MainPage.pageName,isClearBackRoutes: true);
                               }
                               

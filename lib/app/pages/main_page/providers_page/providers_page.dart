@@ -1,12 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:webinar/app/pages/authentication_page/login_page.dart';
+import 'package:webinar/app/pages/main_page/home_page/meetings_page/meetings_page.dart';
 import 'package:webinar/app/pages/main_page/providers_page/providers_filter.dart';
 import 'package:webinar/app/pages/main_page/providers_page/user_profile_page/user_profile_page.dart';
 import 'package:webinar/app/providers/app_language_provider.dart';
+import 'package:webinar/app/providers/page_provider.dart';
 import 'package:webinar/app/providers/theme_provider.dart';
 import 'package:webinar/app/services/guest_service/providers_service.dart';
 import 'package:webinar/common/components.dart';
 import 'package:webinar/common/common.dart';
+import 'package:webinar/common/data/app_data.dart';
+import 'package:webinar/common/enums/error_enum.dart';
+import 'package:webinar/common/enums/page_name_enum.dart';
 import 'package:webinar/common/shimmer_component.dart';
 import 'package:webinar/common/utils/app_text.dart';
 import 'package:webinar/config/assets.dart';
@@ -33,6 +39,7 @@ class _ProvidersPageState extends State<ProvidersPage> with SingleTickerProvider
   List<UserModel> instructorsData = [];
   List<UserModel> organizationsData = [];
   List<UserModel> consultantsData = [];
+  String token = '';
 
 
   bool isLoading = true;
@@ -44,7 +51,7 @@ class _ProvidersPageState extends State<ProvidersPage> with SingleTickerProvider
     tabController = TabController(length: 3, vsync: this);
 
     locator<ProvidersProvider>().clearFilter();
-
+    getToken();
     getInstructors();
     getOrganizations();
     getConsultants();
@@ -54,6 +61,15 @@ class _ProvidersPageState extends State<ProvidersPage> with SingleTickerProvider
   onChangeTab(int i){
     setState(() {
       currentTab = i;
+    });
+  }
+
+  getToken(){
+
+    AppData.getAccessToken().then((value) {
+      setState(() {
+        token = value;
+      });
     });
   }
 
@@ -137,20 +153,21 @@ class _ProvidersPageState extends State<ProvidersPage> with SingleTickerProvider
           child: Scaffold(
             backgroundColor: backgroundColor,
             appBar: appbar(
-              title: appText.providers,
-              rightIcon: AppAssets.filterSvg,
-              leftIcon: AppAssets.menuSvg,
+              title: '',
+              rightIcon: AppAssets.calendarSvg,
+              leftIcon: AppAssets.profileSvg,
               onTapLeftIcon: (){
                 drawerController.showDrawer();
               },
               onTapRightIcon: () async {
-                bool? res = await baseBottomSheet(child: const ProvidersFilter());
+                // bool? res = await baseBottomSheet(child: const ProvidersFilter());
 
-                if(res != null && res){
-                  getInstructors();
-                  getOrganizations();
-                  getConsultants();
-                }
+                // if(res != null && res){
+                //   getInstructors();
+                //   getOrganizations();
+                //   getConsultants();
+                // }comment
+                 nextRoute(MeetingsPage.pageName);
               },
               rightWidth: 22
             ),
@@ -168,24 +185,24 @@ class _ProvidersPageState extends State<ProvidersPage> with SingleTickerProvider
                     elevation: 10,
                     titleSpacing: 0,
 
-                    title: tabBar(onChangeTab, tabController, [
+                    // title: tabBar(onChangeTab, tabController, [
                     
-                      Tab(
-                        text: appText.instrcutors,
-                        height: 32,
-                      ),
+                    //   Tab(
+                    //     text: appText.instrcutors,
+                    //     height: 32,
+                    //   ),
                       
-                      Tab(
-                        text: appText.organizations,
-                        height: 32,
-                      ),
+                    //   Tab(
+                    //     text: appText.organizations,
+                    //     height: 32,
+                    //   ),
                       
-                      Tab(
-                        text: appText.consultants,
-                        height: 32,
-                      ),
+                    //   Tab(
+                    //     text: appText.consultants,
+                    //     height: 32,
+                    //   ),
 
-                    ]),
+                    // ]),
                   )
                 ];
               }, 
@@ -213,58 +230,59 @@ class _ProvidersPageState extends State<ProvidersPage> with SingleTickerProvider
                         return isLoading
                           ? userProfileCardShimmer()
                           : userProfileCard(instructorsData[index], (){
-                              nextRoute(UserProfilePage.pageName, arguments: instructorsData[index].id);
+                              print('object');
+                             nextRoute(UserProfilePage.pageName, arguments: instructorsData[index].id);
                             });
                       },
                     ),
               
-                  !isLoading && organizationsData.isEmpty
-                  ? emptyState(AppAssets.providersEmptyStateSvg, appText.noOrganization, appText.noOrganizationDesc)
-                  : GridView.builder(
-                      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                        crossAxisCount: TabletDetector.isTablet() ? 3 : 2,
-                        mainAxisSpacing: 22,
-                        crossAxisSpacing: 22,
-                        mainAxisExtent: 195
-                      ), 
-                      padding: const EdgeInsets.only(
-                        right: 21,
-                        left: 21,
-                        bottom: 100
-                      ),
-                      itemCount: isLoading ? 6 : organizationsData.length,
-                      itemBuilder: (context, index) {
-                        return isLoading
-                          ? userProfileCardShimmer()
-                          : userProfileCard(organizationsData[index], (){
-                              nextRoute(UserProfilePage.pageName, arguments: organizationsData[index].id);
-                            });
-                      },
-                    ),
+                  // !isLoading && organizationsData.isEmpty
+                  // ? emptyState(AppAssets.providersEmptyStateSvg, appText.noOrganization, appText.noOrganizationDesc)
+                  // : GridView.builder(
+                  //     gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                  //       crossAxisCount: TabletDetector.isTablet() ? 3 : 2,
+                  //       mainAxisSpacing: 22,
+                  //       crossAxisSpacing: 22,
+                  //       mainAxisExtent: 195
+                  //     ), 
+                  //     padding: const EdgeInsets.only(
+                  //       right: 21,
+                  //       left: 21,
+                  //       bottom: 100
+                  //     ),
+                  //     itemCount: isLoading ? 6 : organizationsData.length,
+                  //     itemBuilder: (context, index) {
+                  //       return isLoading
+                  //         ? userProfileCardShimmer()
+                  //         : userProfileCard(organizationsData[index], (){
+                  //             nextRoute(UserProfilePage.pageName, arguments: organizationsData[index].id);
+                  //           });
+                  //     },
+                  //   ),comment
               
-                  !isLoading && consultantsData.isEmpty
-                  ? emptyState(AppAssets.providersEmptyStateSvg, appText.noConsultants, appText.noConsultantsDesc)
-                  : GridView.builder(
-                      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                        crossAxisCount: TabletDetector.isTablet() ? 3 : 2,
-                        mainAxisSpacing: 22,
-                        crossAxisSpacing: 22,
-                        mainAxisExtent: 195
-                      ), 
-                      padding: const EdgeInsets.only(
-                        right: 21,
-                        left: 21,
-                        bottom: 100
-                      ),
-                      itemCount: isLoading ? 6 : consultantsData.length,
-                      itemBuilder: (context, index) {
-                        return isLoading
-                          ? userProfileCardShimmer()
-                          : userProfileCard(consultantsData[index], (){
-                              nextRoute(UserProfilePage.pageName, arguments: consultantsData[index].id);
-                            });
-                      },
-                    ),
+                  // !isLoading && consultantsData.isEmpty
+                  // ? emptyState(AppAssets.providersEmptyStateSvg, appText.noConsultants, appText.noConsultantsDesc)
+                  // : GridView.builder(
+                  //     gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                  //       crossAxisCount: TabletDetector.isTablet() ? 3 : 2,
+                  //       mainAxisSpacing: 22,
+                  //       crossAxisSpacing: 22,
+                  //       mainAxisExtent: 195
+                  //     ), 
+                  //     padding: const EdgeInsets.only(
+                  //       right: 21,
+                  //       left: 21,
+                  //       bottom: 100
+                  //     ),
+                  //     itemCount: isLoading ? 6 : consultantsData.length,
+                  //     itemBuilder: (context, index) {
+                  //       return isLoading
+                  //         ? userProfileCardShimmer()
+                  //         : userProfileCard(consultantsData[index], (){
+                  //             nextRoute(UserProfilePage.pageName, arguments: consultantsData[index].id);
+                  //           });
+                  //     },
+                  //   ),comment
               
                 ]
               )

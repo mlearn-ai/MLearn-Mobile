@@ -188,8 +188,8 @@ class _MainDrawerState extends State<MainDrawer> {
                           space(15),
                           
                           menuItem(appText.home, AppAssets.homeSvg, (){
-                            if(locator<PageProvider>().page != PageNames.home){
-                              locator<PageProvider>().setPage(PageNames.home);
+                            if(locator<PageProvider>().page != PageNames.providers){
+                              locator<PageProvider>().setPage(PageNames.providers);
                             }
                             
                             drawerController.hideDrawer();
@@ -201,15 +201,15 @@ class _MainDrawerState extends State<MainDrawer> {
                             }
                           }),
                           
-                          menuItem(appText.classes, AppAssets.classesSvg, (){
-                            if(hasAccess(canRedirect: true)){
-                              if(locator<PageProvider>().page != PageNames.myClasses){
-                                locator<PageProvider>().setPage(PageNames.myClasses);
-                              }
+                          // menuItem(appText.classes, AppAssets.classesSvg, (){
+                          //   if(hasAccess(canRedirect: true)){
+                          //     if(locator<PageProvider>().page != PageNames.myClasses){
+                          //       locator<PageProvider>().setPage(PageNames.myClasses);
+                          //     }
 
-                              drawerController.hideDrawer();
-                            }
-                          }),
+                          //     drawerController.hideDrawer();
+                          //   }
+                          // }),
                           
                           menuItem(appText.meetings, AppAssets.meetingsSvg, (){
                             if(hasAccess(canRedirect: true)){
@@ -217,11 +217,11 @@ class _MainDrawerState extends State<MainDrawer> {
                             }
                           }),
                           
-                          menuItem(appText.assignments, AppAssets.assignmentsSvg, (){
-                            if(hasAccess(canRedirect: true)){
-                              nextRoute(AssignmentsPage.pageName);
-                            }
-                          }), 
+                          // menuItem(appText.assignments, AppAssets.assignmentsSvg, (){
+                          //   if(hasAccess(canRedirect: true)){
+                          //     nextRoute(AssignmentsPage.pageName);
+                          //   }
+                          // }), 
                           
                           menuItem(appText.quizzes, AppAssets.quizzesSvg, (){
                             if(hasAccess(canRedirect: true)){
@@ -229,11 +229,11 @@ class _MainDrawerState extends State<MainDrawer> {
                             }
                           }),
                           
-                          menuItem(appText.certificates, AppAssets.certificatesSvg, (){
-                            if(hasAccess(canRedirect: true)){
-                              nextRoute(CertificatesPage.pageName);
-                            }
-                          }),
+                          // menuItem(appText.certificates, AppAssets.certificatesSvg, (){
+                          //   if(hasAccess(canRedirect: true)){
+                          //     nextRoute(CertificatesPage.pageName);
+                          //   }
+                          // }),
                           
                           menuItem(appText.favorites, AppAssets.favoritesSvg, (){
                             if(hasAccess(canRedirect: true)){
@@ -241,11 +241,11 @@ class _MainDrawerState extends State<MainDrawer> {
                             }
                           }),
                           
-                          menuItem(appText.comments, AppAssets.commentsSvg, (){
-                            if(hasAccess(canRedirect: true)){
-                              nextRoute(CommentsPage.pageName);
-                            }
-                          }),
+                          // menuItem(appText.comments, AppAssets.commentsSvg, (){
+                          //   if(hasAccess(canRedirect: true)){
+                          //     nextRoute(CommentsPage.pageName);
+                          //   }
+                          // }),
                           
                           menuItem(appText.financial, AppAssets.financialSvg, (){
                             if(hasAccess(canRedirect: true)){

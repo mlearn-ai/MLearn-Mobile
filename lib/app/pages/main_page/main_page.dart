@@ -208,68 +208,68 @@ class _MainPageState extends State<MainPage> {
                                 children: [
                                   
                                   // background
-                                  Positioned.fill(
-                                    bottom: 0,
-                                    top: getSize().height - bottomNavHeight,
-                                    child: ClipRRect(
-                                      borderRadius: BorderRadius.vertical(
-                                        bottom: drawerProvider.isOpenDrawer ? const Radius.circular(kIsWeb ? 0 : 20) : Radius.zero
-                                      ),
-                                      child: ClipPath(
-                                        clipper: BottomNavClipper(),
+                                  // Positioned.fill(
+                                  //   bottom: 0,
+                                  //   top: getSize().height - bottomNavHeight,
+                                  //   child: ClipRRect(
+                                  //     borderRadius: BorderRadius.vertical(
+                                  //       bottom: drawerProvider.isOpenDrawer ? const Radius.circular(kIsWeb ? 0 : 20) : Radius.zero
+                                  //     ),
+                                  //     child: ClipPath(
+                                  //       clipper: BottomNavClipper(),
                                                                       
-                                        child: Container(
-                                          width: getSize().width,
-                                          height: bottomNavHeight,
-                                          decoration: BoxDecoration(
-                                            gradient: LinearGradient(
-                                              colors: [
-                                                lightGreen77(),
-                                                green4B
-                                              ],
-                                              begin: Alignment.topLeft,
-                                              end: Alignment.bottomRight
-                                            )
-                                          ),
-                                        ),
+                                  //       child: Container(
+                                  //         width: getSize().width,
+                                  //         height: bottomNavHeight,
+                                  //         decoration: BoxDecoration(
+                                  //           gradient: LinearGradient(
+                                  //             colors: [
+                                  //               lightGreen77(),
+                                  //               green4B
+                                  //             ],
+                                  //             begin: Alignment.topLeft,
+                                  //             end: Alignment.bottomRight
+                                  //           )
+                                  //         ),
+                                  //       ),
                                                                       
                                                                       
-                                      ),
-                                    ),
-                                  ),
+                                  //     ),
+                                  //   ),
+                                  // ),
                                                 
-                                  Positioned.fill(
-                                    bottom: 0,
-                                    top: getSize().height - bottomNavHeight,
-                                    child: Row(
-                                      mainAxisAlignment: MainAxisAlignment.center,
-                                      children: [
+                                  // Positioned.fill(
+                                  //   bottom: 0,
+                                  //   top: getSize().height - bottomNavHeight,
+                                  //   child: Row(
+                                  //     mainAxisAlignment: MainAxisAlignment.center,
+                                  //     children: [
                                         
-                                        MainWidget.navItem(PageNames.categories, pageProvider.page, appText.categories, AppAssets.categorySvg, (){
-                                          pageProvider.setPage(PageNames.categories);
-                                        }),
+                                  //       // MainWidget.navItem(PageNames.categories, pageProvider.page, appText.categories, AppAssets.categorySvg, (){
+                                  //       //   pageProvider.setPage(PageNames.categories);
+                                  //       // }), comment
                                         
-                                        MainWidget.navItem(PageNames.providers, pageProvider.page, appText.providers, AppAssets.provideresSvg, (){
-                                          pageProvider.setPage(PageNames.providers);
-                                        }),
+                                  //       MainWidget.navItem(PageNames.providers, pageProvider.page, appText.providers, AppAssets.provideresSvg, (){
+                                  //         pageProvider.setPage(PageNames.providers);
+                                  //       }),
                                                 
                                                 
-                                        MainWidget.homeNavItem(PageNames.home, pageProvider.page, (){
-                                          pageProvider.setPage(PageNames.home);
-                                        }),
+                                  //       // MainWidget.homeNavItem(PageNames.home, pageProvider.page, (){
+                                  //       //   pageProvider.setPage(PageNames.home);
+                                  //       // }),comment
                                         
                                         
-                                        MainWidget.navItem(PageNames.blog, pageProvider.page, appText.blog, AppAssets.blogSvg, (){
-                                          pageProvider.setPage(PageNames.blog);
-                                        }),
+                                  //       // MainWidget.navItem(PageNames.blog, pageProvider.page, appText.blog, AppAssets.blogSvg, (){
+                                  //       //   pageProvider.setPage(PageNames.blog);
+                                  //       // }),comment
                                         
-                                        MainWidget.navItem(PageNames.myClasses, pageProvider.page, appText.myClassess, AppAssets.classesSvg, (){
-                                          pageProvider.setPage(PageNames.myClasses);
-                                        }),
+                                  //       MainWidget.navItem(PageNames.myClasses, pageProvider.page, appText.myClassess, AppAssets.classesSvg, (){
+                                  //         pageProvider.setPage(PageNames.myClasses);
+                                  //       }),
                                                 
-                                      ],
-                                    )
-                                  )
+                                  //     ],
+                                  //   )
+                                  // )
                                 ],
                               );
                             }

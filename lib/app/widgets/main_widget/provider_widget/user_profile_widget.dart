@@ -355,16 +355,16 @@ class UserProfileWidget{
             textAlign: TextAlign.center,
           ),
 
-           if(profile.cashbackRules.isNotEmpty)...{
-              space(16),
+          //  if(profile.cashbackRules.isNotEmpty)...{
+          //     space(16),
 
-              helperBox(
-                AppAssets.walletSvg, 
-                appText.getCashback, 
-                '${appText.reserveAMeetingAndGet}${profile.cashbackRules.first.amountType == 'percent' ? '%${profile.cashbackRules.first.amount ?? 0}' : CurrencyUtils.calculator(profile.cashbackRules.first.amount ?? 0)} ${appText.cashback}',
-                horizontalPadding: 0
-              ),
-            }
+          //     helperBox(
+          //       AppAssets.walletSvg, 
+          //       appText.getCashback, 
+          //       '${appText.reserveAMeetingAndGet}${profile.cashbackRules.first.amountType == 'percent' ? '%${profile.cashbackRules.first.amount ?? 0}' : CurrencyUtils.calculator(profile.cashbackRules.first.amount ?? 0)} ${appText.cashback}',
+          //       horizontalPadding: 0
+          //     ),
+          //   }comment
         ],
       ),
     );
